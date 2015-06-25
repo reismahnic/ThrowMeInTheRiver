@@ -71,7 +71,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName xml:space="preserve">Throw Me In The River</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>3</AudioIndexer>
+      <AudioIndexer>7</AudioIndexer>
     </Settings>
     <LipSync>
       <Type>None</Type>
@@ -1578,9 +1578,9 @@ cJoseph80: Well, you're like me. You always have been.
 cDiane55: You couldn't hate your father, I can't hate mine.
 cJoseph80: I don't understand how it works. But I don't mind.
  }
- 
- //Cell phone ring SFX plays
 
+ aSlowjam_CellPhone.Play(eAudioPriorityNormal);
+ 
 cDiane55: That's mine, hold on.
 cDiane55: ...
 cDiane55: Hey, Emma.
@@ -1629,7 +1629,7 @@ cDiane55: Do you think you could have found understanding?
  
 cJoseph80: I don't know.
 
-//Cell phone ring SFX plays
+ aSlowjam_CellPhone.Play(eAudioPriorityNormal);
 
 cDiane55: That's mine, hold on.
 cDiane55: ...
@@ -3164,40 +3164,52 @@ cJoseph60: Diane!
             <SubFolders />
             <AudioClips>
               <AudioClip>
-                <SourceFileName xml:space="preserve">C:\Users\Björn 'Ghost' Ludwig\Desktop\Mythaumatology Assets\Assets\ElectricNoise.WAV</SourceFileName>
-                <ScriptName>aElectricNoise</ScriptName>
-                <Index>1</Index>
+                <SourceFileName>C:\dev\throwmeintheriver\throwmeinriver\Assets\Sound\Hospital_Ambience_NoMonitor.wav</SourceFileName>
+                <ScriptName>aHospital_Ambience_NoMonitor</ScriptName>
+                <Index>4</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
                 <FileType>WAV</FileType>
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2012-02-05 13:06:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-25 01:10:14Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <SourceFileName xml:space="preserve">C:\Users\Björn 'Ghost' Ludwig\Desktop\Mythaumatology Assets\Assets\LostCraftHowl.wav</SourceFileName>
-                <ScriptName>aLostCraftHowl</ScriptName>
-                <Index>2</Index>
+                <SourceFileName>C:\dev\throwmeintheriver\throwmeinriver\Assets\Sound\slowjam_CellPhone.wav</SourceFileName>
+                <ScriptName>aSlowjam_CellPhone</ScriptName>
+                <Index>5</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
                 <FileType>WAV</FileType>
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2012-02-05 13:06:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-25 01:10:14Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <SourceFileName xml:space="preserve">C:\Users\Björn 'Ghost' Ludwig\Desktop\Mythaumatology Assets\Assets\RadioNoise.WAV</SourceFileName>
-                <ScriptName>aRadioNoise</ScriptName>
-                <Index>3</Index>
+                <SourceFileName>C:\dev\throwmeintheriver\throwmeinriver\Assets\Sound\slowjam_Livingroom_RoomTone.wav</SourceFileName>
+                <ScriptName>aSlowjam_Livingroom_RoomTone</ScriptName>
+                <Index>6</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
                 <FileType>WAV</FileType>
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>1999-02-06 21:58:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-25 01:10:14Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <SourceFileName>C:\dev\throwmeintheriver\throwmeinriver\Assets\Sound\slowjam_transition_1_v1.wav</SourceFileName>
+                <ScriptName>aSlowjam_transition_1_v1</ScriptName>
+                <Index>7</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>WAV</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2015-06-25 01:10:14Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
