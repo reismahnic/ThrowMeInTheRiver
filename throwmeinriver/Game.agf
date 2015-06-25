@@ -630,11 +630,15 @@
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>3</Number>
-            <Description>Title</Description>
+            <Description xml:space="preserve">Title, Monologue 1</Description>
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>4</Number>
             <Description xml:space="preserve">Scene 2, Joseph's Home</Description>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>5</Number>
+            <Description xml:space="preserve">Monologue 2</Description>
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>301</Number>
@@ -1065,7 +1069,7 @@
                 <ID>2</ID>
                 <ScriptName>cJoseph60</ScriptName>
                 <RealName>Joseph</RealName>
-                <NormalView>1</NormalView>
+                <NormalView>4</NormalView>
                 <SpeechView>3</SpeechView>
                 <IdleView>0</IdleView>
                 <ThinkingView>0</ThinkingView>
@@ -1074,7 +1078,7 @@
                 <StartX>160</StartX>
                 <StartY>120</StartY>
                 <UniformMovementSpeed>True</UniformMovementSpeed>
-                <MovementSpeed>3</MovementSpeed>
+                <MovementSpeed>7</MovementSpeed>
                 <MovementSpeedX>0</MovementSpeedX>
                 <MovementSpeedY>0</MovementSpeedY>
                 <AnimationDelay>4</AnimationDelay>
@@ -1627,7 +1631,6 @@ cJoseph80: I don't know.
 
 //Cell phone ring SFX plays
 
-cDiane55: DSHSERJHSERHXFHDR  GDRGDRFD R GDD RCGCH R G
 cDiane55: That's mine, hold on.
 cDiane55: ...
 cDiane55: Hey, Emma.
@@ -1712,13 +1715,13 @@ goto-dialog dScene2Dialog2
                 <ID>1</ID>
                 <Text xml:space="preserve">It was a mess</Text>
                 <Show>True</Show>
-                <Say>True</Say>
+                <Say>False</Say>
               </DialogOption>
               <DialogOption>
                 <ID>2</ID>
                 <Text xml:space="preserve">It actually was civil</Text>
                 <Show>True</Show>
-                <Say>True</Say>
+                <Say>False</Say>
               </DialogOption>
             </DialogOptions>
           </Dialog>
@@ -1729,6 +1732,65 @@ goto-dialog dScene2Dialog2
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 
+cDiane35: What... what happened? Between you two, I mean?
+cJoseph60: She didn't want to be married to a mechanic her whole life.
+cDiane35: Didn't she know what she was getting into when she married you?
+cJoseph60: I don't know. Ask her.
+cDiane35: She won't talk about this stuff, Dad.
+cJoseph60: I think she wanted me to keep doing what I was doing when she met me.
+cDiane35: What was that?
+
+return
+
+
+@1
+cJoseph60: When I left home, I started going to college!
+cJoseph60: That's when your Mother and I met.
+cJoseph60: Then the money ran out, and I started working on cars.
+cJoseph60: Pretty soon, it just made more sense to keep doing that.
+cDiane35: Neither of you ever mentioned it.
+cJoseph60: Well, I'm not very proud of it. And your mother wasn't happy about it either.
+goto-dialog dScene2Dialog3
+@2
+cJoseph60: When I left home, my best friend and I started a tiling business.
+cJoseph60: That's when your Mother and I met.
+cJoseph60: Then the business fell through, and I started working on cars.
+cJoseph60: Pretty soon, it just made more sense to keep doing that.
+cDiane35: Neither of you ever mentioned it.
+cJoseph60: Well, I'm not very proud of it. And your mother wasn't happy about it either.
+
+goto-dialog dScene2Dialog3]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Text xml:space="preserve">I was going to college</Text>
+                <Show>True</Show>
+                <Say>False</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Text xml:space="preserve">I was starting my own business</Text>
+                <Show>True</Show>
+                <Say>False</Say>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
+          <Dialog>
+            <ID>6</ID>
+            <Name>dScene2Dialog3</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+
+
+cJoseph60: Anyway, that's all in the past now.
+cJoseph60: ...
+cJoseph60: What brought this on?
+cJoseph60: ...
+cJoseph60: ...
+
+
+
 //SFX Tea whistle
 
 cJoseph60: I'll get that.
@@ -1738,19 +1800,7 @@ cDiane35: Dad?
 cJoseph60: What's that?
 cDiane35: Come back in, I have to tell you something.
 cJoseph60: One second.
- cJoseph60.Walk(130,234);
-
-goto-dialog dScene2Dialog3
-
-]]></Script>
-            <DialogOptions />
-          </Dialog>
-          <Dialog>
-            <ID>6</ID>
-            <Name>dScene2Dialog3</Name>
-            <ShowTextParser>False</ShowTextParser>
-            <Script><![CDATA[// Dialog script file
-@S  // Dialog startup entry point
+ cJoseph60.Walk(214,170,eBlock);
 
 cJoseph60: What's up?
 cDiane35: Eric and I are separating.
@@ -1766,7 +1816,12 @@ cJoseph60: I just hope you two are okay with this.
 cDiane35: We are. It's not working.
 cJoseph60: ...Well, if it's not working, it's not working.
 cDiane35: Dad... thanks for understanding. Thank you.
+
+  player.ChangeRoom(5);
  }
+
+
+
  else
  {
 cJoseph60: This is a joke, right?
@@ -1778,10 +1833,15 @@ cJoseph60: Do you have any idea what my life has been since...
 cDiane35: Excuse me? Are you really going to make this about you?
 cJoseph60: Well it sounds to me like you were already set on that!
 cDiane35: Oh, wow.
+cJoseph60: What?
+cDiane35: I... I have to leave.
+//Diane leaves
+cJoseph60: Diane?
+//Door slams
+cJoseph60: Diane!
+ player.ChangeRoom(5);
  }  
 
-
-return
 ]]></Script>
             <DialogOptions />
           </Dialog>
@@ -3113,7 +3173,7 @@ return
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2012-02-05 21:06:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2012-02-05 13:06:18Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName xml:space="preserve">C:\Users\Björn 'Ghost' Ludwig\Desktop\Mythaumatology Assets\Assets\LostCraftHowl.wav</SourceFileName>
@@ -3125,7 +3185,7 @@ return
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2012-02-05 21:06:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2012-02-05 13:06:18Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName xml:space="preserve">C:\Users\Björn 'Ghost' Ludwig\Desktop\Mythaumatology Assets\Assets\RadioNoise.WAV</SourceFileName>
@@ -3137,7 +3197,7 @@ return
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>1999-02-07 05:58:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>1999-02-06 21:58:18Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
