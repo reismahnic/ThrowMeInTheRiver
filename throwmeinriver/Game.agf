@@ -41,10 +41,10 @@
       <PlaySoundOnScore>0</PlaySoundOnScore>
       <CrossfadeMusic>No</CrossfadeMusic>
       <DialogOptionsGUI>0</DialogOptionsGUI>
-      <DialogOptionsGap>1</DialogOptionsGap>
+      <DialogOptionsGap>2</DialogOptionsGap>
       <DialogOptionsBullet>0</DialogOptionsBullet>
-      <SkipSpeech>MouseOrKeyboardOrTimer</SkipSpeech>
-      <SpeechStyle>Lucasarts</SpeechStyle>
+      <SkipSpeech>MouseOnlyStrict</SkipSpeech>
+      <SpeechStyle>SierraWithBackground</SpeechStyle>
       <UseGlobalSpeechAnimationDelay>False</UseGlobalSpeechAnimationDelay>
       <GlobalSpeechAnimationDelay>5</GlobalSpeechAnimationDelay>
       <LegacySpeechAnimationSpeed>False</LegacySpeechAnimationSpeed>
@@ -621,8 +621,20 @@
         <SubFolders />
         <UnloadedRooms>
           <UnloadedRoom>
+            <Number>2</Number>
+            <Description>Opening</Description>
+          </UnloadedRoom>
+          <UnloadedRoom>
             <Number>1</Number>
-            <Description IsNull="True" />
+            <Description xml:space="preserve">Scene 1, Hospital</Description>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>4</Number>
+            <Description>Title</Description>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>3</Number>
+            <Description xml:space="preserve">Scene 2, Joseph's Home</Description>
           </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
@@ -1016,29 +1028,200 @@
     </TextParser>
     <Characters>
       <CharacterFolder Name="Main">
-        <SubFolders />
+        <SubFolders>
+          <CharacterFolder Name="Joseph">
+            <SubFolders />
+            <Characters>
+              <Character>
+                <ID>0</ID>
+                <ScriptName>cJoseph80</ScriptName>
+                <RealName xml:space="preserve">Joseph, 80</RealName>
+                <NormalView>1</NormalView>
+                <SpeechView>3</SpeechView>
+                <IdleView>0</IdleView>
+                <ThinkingView>3</ThinkingView>
+                <BlinkingView>0</BlinkingView>
+                <StartingRoom>2</StartingRoom>
+                <StartX>80</StartX>
+                <StartY>216</StartY>
+                <UniformMovementSpeed>True</UniformMovementSpeed>
+                <MovementSpeed>5</MovementSpeed>
+                <MovementSpeedX>3</MovementSpeedX>
+                <MovementSpeedY>0</MovementSpeedY>
+                <AnimationDelay>4</AnimationDelay>
+                <SpeechAnimationDelay>5</SpeechAnimationDelay>
+                <SpeechColor>50688</SpeechColor>
+                <Solid>True</Solid>
+                <Clickable>False</Clickable>
+                <UseRoomAreaScaling>True</UseRoomAreaScaling>
+                <UseRoomAreaLighting>True</UseRoomAreaLighting>
+                <TurnBeforeWalking>True</TurnBeforeWalking>
+                <DiagonalLoops>True</DiagonalLoops>
+                <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+                <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+                <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+                <Properties />
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                  <Event Index="5" />
+                  <Event Index="6" />
+                  <Event Index="7" />
+                </Interactions>
+              </Character>
+              <Character>
+                <ID>2</ID>
+                <ScriptName>cJoseph60</ScriptName>
+                <RealName>Joseph</RealName>
+                <NormalView>1</NormalView>
+                <SpeechView>3</SpeechView>
+                <IdleView>0</IdleView>
+                <ThinkingView>0</ThinkingView>
+                <BlinkingView>0</BlinkingView>
+                <StartingRoom>4</StartingRoom>
+                <StartX>160</StartX>
+                <StartY>120</StartY>
+                <UniformMovementSpeed>True</UniformMovementSpeed>
+                <MovementSpeed>3</MovementSpeed>
+                <MovementSpeedX>0</MovementSpeedX>
+                <MovementSpeedY>0</MovementSpeedY>
+                <AnimationDelay>4</AnimationDelay>
+                <SpeechAnimationDelay>5</SpeechAnimationDelay>
+                <SpeechColor>12</SpeechColor>
+                <Solid>True</Solid>
+                <Clickable>False</Clickable>
+                <UseRoomAreaScaling>True</UseRoomAreaScaling>
+                <UseRoomAreaLighting>True</UseRoomAreaLighting>
+                <TurnBeforeWalking>True</TurnBeforeWalking>
+                <DiagonalLoops>True</DiagonalLoops>
+                <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+                <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+                <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+                <Properties />
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                  <Event Index="5" />
+                  <Event Index="6" />
+                  <Event Index="7" />
+                </Interactions>
+              </Character>
+            </Characters>
+          </CharacterFolder>
+          <CharacterFolder Name="Diane">
+            <SubFolders />
+            <Characters>
+              <Character>
+                <ID>3</ID>
+                <ScriptName>cDiane55</ScriptName>
+                <RealName>Diane</RealName>
+                <NormalView>1</NormalView>
+                <SpeechView>5</SpeechView>
+                <IdleView>0</IdleView>
+                <ThinkingView>0</ThinkingView>
+                <BlinkingView>0</BlinkingView>
+                <StartingRoom>1</StartingRoom>
+                <StartX>156</StartX>
+                <StartY>405</StartY>
+                <UniformMovementSpeed>True</UniformMovementSpeed>
+                <MovementSpeed>2</MovementSpeed>
+                <MovementSpeedX>0</MovementSpeedX>
+                <MovementSpeedY>0</MovementSpeedY>
+                <AnimationDelay>7</AnimationDelay>
+                <SpeechAnimationDelay>5</SpeechAnimationDelay>
+                <SpeechColor>12</SpeechColor>
+                <Solid>True</Solid>
+                <Clickable>False</Clickable>
+                <UseRoomAreaScaling>True</UseRoomAreaScaling>
+                <UseRoomAreaLighting>True</UseRoomAreaLighting>
+                <TurnBeforeWalking>True</TurnBeforeWalking>
+                <DiagonalLoops>True</DiagonalLoops>
+                <AdjustSpeedWithScaling>True</AdjustSpeedWithScaling>
+                <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+                <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+                <Properties />
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                  <Event Index="5" />
+                  <Event Index="6" />
+                  <Event Index="7" />
+                </Interactions>
+              </Character>
+              <Character>
+                <ID>4</ID>
+                <ScriptName>cDiane35</ScriptName>
+                <RealName>Diane</RealName>
+                <NormalView>4</NormalView>
+                <SpeechView>5</SpeechView>
+                <IdleView>0</IdleView>
+                <ThinkingView>0</ThinkingView>
+                <BlinkingView>0</BlinkingView>
+                <StartingRoom>3</StartingRoom>
+                <StartX>168</StartX>
+                <StartY>150</StartY>
+                <UniformMovementSpeed>True</UniformMovementSpeed>
+                <MovementSpeed>7</MovementSpeed>
+                <MovementSpeedX>0</MovementSpeedX>
+                <MovementSpeedY>0</MovementSpeedY>
+                <AnimationDelay>7</AnimationDelay>
+                <SpeechAnimationDelay>5</SpeechAnimationDelay>
+                <SpeechColor>12</SpeechColor>
+                <Solid>True</Solid>
+                <Clickable>False</Clickable>
+                <UseRoomAreaScaling>True</UseRoomAreaScaling>
+                <UseRoomAreaLighting>True</UseRoomAreaLighting>
+                <TurnBeforeWalking>True</TurnBeforeWalking>
+                <DiagonalLoops>True</DiagonalLoops>
+                <AdjustSpeedWithScaling>True</AdjustSpeedWithScaling>
+                <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+                <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+                <Properties />
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                  <Event Index="5" />
+                  <Event Index="6" />
+                  <Event Index="7" />
+                </Interactions>
+              </Character>
+            </Characters>
+          </CharacterFolder>
+        </SubFolders>
         <Characters>
           <Character>
-            <ID>0</ID>
-            <ScriptName>cGirl</ScriptName>
-            <RealName>Yu</RealName>
-            <NormalView>2</NormalView>
-            <SpeechView>3</SpeechView>
+            <ID>1</ID>
+            <ScriptName>cCheryl</ScriptName>
+            <RealName>Cheryl</RealName>
+            <NormalView>1</NormalView>
+            <SpeechView>0</SpeechView>
             <IdleView>0</IdleView>
-            <ThinkingView>3</ThinkingView>
+            <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
-            <StartingRoom>1</StartingRoom>
-            <StartX>230</StartX>
-            <StartY>170</StartY>
+            <StartingRoom>-1</StartingRoom>
+            <StartX>208</StartX>
+            <StartY>189</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
-            <MovementSpeed>5</MovementSpeed>
-            <MovementSpeedX>3</MovementSpeedX>
+            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>4</AnimationDelay>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>50688</SpeechColor>
+            <SpeechColor>12</SpeechColor>
             <Solid>True</Solid>
-            <Clickable>False</Clickable>
+            <Clickable>True</Clickable>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
             <UseRoomAreaLighting>True</UseRoomAreaLighting>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -1065,7 +1248,421 @@
     <Dialogs>
       <DialogFolder Name="Main">
         <SubFolders />
-        <Dialogs />
+        <Dialogs>
+          <Dialog>
+            <ID>0</ID>
+            <Name>dScene1Dialog1</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+
+cDiane55: What do you think it was?
+cJoseph80: At the time I thought it was some kind of greater power, calling down to me.
+cDiane55: And now?
+
+
+
+return
+
+@1
+ BelievesInGod = true;
+cJoseph80: I still believe it may have been God.
+cJoseph80: I think it was some kind of higher power. Talking to me. Telling me I would be ok.
+cDiane55: You've never told me about this.
+cJoseph80: I used to avoid thinking about it.
+cDiane55: I like it, Dad.
+goto-dialog dScene1Dialog2
+
+
+@2
+ BelievesInGod = false;
+cJoseph80: I don't know what it was. But I don't believe in a higher power.
+cDiane55: I believe you saw something, though.
+cJoseph80: More and more I think about it, the more I think I just saw what I needed to see, and that's all there was to it.
+cJoseph80: Something that would get me as far as possible from...
+cJoseph80: ...
+cJoseph80: It was lonely out there. Just had my sister.
+cDiane55: Aunt Cheryl talks enough for four people.
+cJoseph80: Heh! Isn't that the truth...
+goto-dialog dScene1Dialog2]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Text xml:space="preserve">It was God</Text>
+                <Show>True</Show>
+                <Say>False</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Text xml:space="preserve">It was not God</Text>
+                <Show>True</Show>
+                <Say>False</Say>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
+          <Dialog>
+            <ID>1</ID>
+            <Name>dScene1Dialog2</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+
+cJoseph80: ...
+cJoseph80: ...
+cJoseph80: I'm probably not leaving this hospital, Diane.
+cDiane55: Dad...
+cJoseph80: ...
+cJoseph80: Do you remember when you were in high school, and I was in a car wreck?
+cDiane55: Yes.
+cJoseph80: I was going... had to be 150, 160. Just outside of Toronto.
+cJoseph80: Your Mom had left me and I didn't know what to do.
+cDiane55: I remember.
+cJoseph80: And I remember dangling upside down, and struggling to get my seatbelt unhooked...
+cJoseph80: And then I stopped, and just hung there. I gave up.
+ if (BelievesInGod == true)
+ {
+cJoseph80: I thought, please, God, come to me, speak to me like you spoke to me that day on the farm.
+ }
+ else
+ {
+cJoseph80: I didn't know what to do. I was to scared to survive, and not religious enough to pray.
+ }
+cJoseph80: ...
+cJoseph80: ...
+cJoseph80: I'm glad I lived.
+cDiane55: I know.
+cJoseph80: I'm glad you're here. Right now, I mean.
+cDiane55: ...
+cDiane55: I know.
+cJoseph80: ...
+cJoseph80: How are things at home?
+
+return
+
+
+@1
+
+cJoseph80: What's Paul up to lately?
+cDiane55: He's taking retirement hard.
+cJoseph80: I did too, at first.
+cDiane55: He's been seeing his friends more, though.
+cJoseph80: From work?
+cDiane55: Mostly. Sometimes his best friend he grew up with visits.
+cJoseph80: That's good.
+goto-dialog dScene1Dialog3
+@2
+cJoseph80: Are Liz and Emma doing ok?
+cDiane55: Liz is doing fine. She's been looking up and down for colleges.
+cJoseph80: Oh, yeah. What's she majoring in?
+cDiane55: She doesn't know yet. Just getting her general degree.
+cDiane55: Emma, of course, getting straight A's in everything. You know her.
+cJoseph80: Well, I'd like to see both of them.
+cDiane55: I know, Dad. They're just both so busy now...
+goto-dialog dScene1Dialog3
+
+@3
+cDiane55: I'm fine.
+cJoseph80: You've been coming here too often, Diane.
+cDiane55: I said I'm fine, Dad.
+cJoseph80: Because I can-
+cDiane55: Dad.
+cJoseph80: You're fine.
+cDiane55: I'm fine.
+goto-dialog dScene1Dialog3
+]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Text xml:space="preserve">How's Paul doing?</Text>
+                <Show>True</Show>
+                <Say>False</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Text xml:space="preserve">How are Liz and Emma?</Text>
+                <Show>True</Show>
+                <Say>False</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>3</ID>
+                <Text xml:space="preserve">How have you been?</Text>
+                <Show>True</Show>
+                <Say>False</Say>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
+          <Dialog>
+            <ID>2</ID>
+            <Name>dScene1Dialog3</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+
+cJoseph80: ...
+cJoseph80: Diane?
+cDiane55: What?
+cJoseph80: When I go, I want them there.
+cJoseph80: For the funeral.
+cDiane55: Of course they'll be there, Dad.
+
+
+return
+@1
+ AttendedFathersFuneral = false;
+cJoseph80: I'll never forgive myself for what I did.
+cJoseph80: I was angry, but missing my own father's funeral...
+cDiane55: It's alright. I'm sure he knew you cared about him.
+cJoseph80: It was disgusting. I was a coward.
+ if (BelievesInGod == true)
+ {
+cJoseph80: And I'll pay for it, when the time comes.
+cDiane55: That wasn't a sin, Dad.
+cJoseph80: Of course it was.
+ }
+ else
+ {
+cJoseph80: You can't let go of that.
+ }
+goto-dialog dScene1Dialog4
+
+@2
+ AttendedFathersFuneral = true;
+cJoseph80: Burying my father was...
+cJoseph80: He and I never got closure. At all. I hadn't seen him since I left home.
+cDiane55: I know. Mom told me.
+cJoseph80: Well, I'll never feel good about our relationship.
+cJoseph80: But I know that Cheryl appreciated it. And that's why I went.
+cJoseph80: I'm glad I went.
+ if (BelievesInGod == true)
+ {
+cJoseph80: God only knows if the old man would've wanted me there.
+ }
+ else
+ {
+cJoseph80: I still don't know if the old man wouldn've wanted me there.
+ }
+cJoseph80: Anyway, I want you there for mine.
+cDiane55: I will be, Dad.
+
+goto-dialog dScene1Dialog4]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Text xml:space="preserve">I didn't go to my father's funeral</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Text xml:space="preserve">I went to my father's funeral</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
+          <Dialog>
+            <ID>3</ID>
+            <Name>dScene1Dialog4</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+
+cDiane55: You've never talked about him before. Not like this.
+cJoseph80: I'm at the point where I won't get to later.
+cJoseph80: Nobody deserves to be completely forgotten. Not even him.
+cDiane55: What... what happened between you two?
+cJoseph80: He wasn't what you'd call a loving parent.
+cJoseph80: After my mother died, I became the target of his grief.
+cJoseph80: One day I had to stand up to him. And I did.
+cJoseph80: The next day, I left home. And I never saw him again.
+ if (AttendedFathersFuneral == true)
+ {
+cJoseph80: Until the funeral.
+ }
+ else
+ {
+cJoseph80: ...
+ }
+cDiane55: When you left... did you hate him?
+
+
+return
+@1
+ HatedFather = true;
+cJoseph80: Oh, I sure did.
+cJoseph80: I hated him like no other.
+ if (AttendedFathersFuneral == false)
+ {
+cJoseph80: And even when I was forty, and heard he died, I still hated him.
+cJoseph80: Part of me still hates him. And the other part of me is just sad.
+cJoseph80: What's happened happened. Can't do anything about it.
+cJoseph80: I wish I'd gone to his funeral...
+ }
+ else
+ {
+cJoseph80: But by the time he died, I was forty years old, and realized I would never understand him.
+cJoseph80: Part of me still hates him. And the other part of me is just sad.
+cJoseph80: What's happened happened. Can't do anything about it.
+cJoseph80: I'm glad I went to his funeral.
+ }
+
+cDiane55: Thank you for telling me about him. 
+cJoseph80: I should have a long time ago.
+cJoseph80: I'm sorry.
+cDiane55: ...
+
+goto-dialog dScene1Dialog5
+
+@2
+ HatedFather = false;
+cJoseph80: No. I was angry, but... I knew I didn't understand.
+cJoseph80: I would never understand him. We were just too different.
+cJoseph80: Growing up, he'd tell me how I was just like my mother.
+cJoseph80: And he was right, I was.
+cJoseph80: I couldn't live with him anymore. So I left.
+ if (AttendedFathersFuneral == true)
+ {
+cDiane55: It's good that you went to the funeral.
+cJoseph80: Yes, it was.
+ }
+ else
+ {
+cDiane55: Why didn't you go to the funeral?
+cJoseph80: I left him and never came back. How could I?
+ }
+ 
+cDiane55: Thank you for telling me about him. 
+cJoseph80: I should have a long time ago.
+cJoseph80: I'm sorry.
+cDiane55: ...
+
+goto-dialog dScene1Dialog5]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Text xml:space="preserve">I hated him</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Text xml:space="preserve">No, I didn't hate him</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
+          <Dialog>
+            <ID>4</ID>
+            <Name>dScene1Dialog5</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+
+cDiane55: Dad, you know, when I divorced Eric?
+
+
+return
+@1
+cJoseph80: I remember. I didn't understand.
+cDiane55: Well... I was furious with you.
+cJoseph80: I know.
+ if (HatedFather == true)
+ {
+cDiane55: Just like when you hated my Grandfather.
+cJoseph80: I know.
+cDiane55: After you and Mom divorced, for you to say...
+cJoseph80: It was stupid. And I still don't understand why I said what I said.
+cJoseph80: I'm sorry.
+cDiane55: Don't be. It was twenty years ago. I'm past it.
+cDiane55: I just... I understand how you felt. When you left your father.
+ }
+ else
+ {
+cDiane55: I didn't hate you though.
+cJoseph80: Well, you're like me. You always have been.
+cDiane55: You couldn't hate your father, I can't hate mine.
+cJoseph80: I don't understand how it works. But I don't mind.
+ }
+
+@2
+cDiane55: I remember when you and Mom got divorced, and I felt like my life was being torn apart.
+ if (BelievesInGod == true)
+ {
+cJoseph80: Well, sure. You know, when I went through my divorce, we got a lot of comments from our church. 
+cJoseph80: It was '73. People gave us a hard time.
+ }
+ else
+ {
+cJoseph80: Well, sure. My divorce was no party. I understood. 
+ }
+ 
+cDiane55: Your understanding was what got me through all of that.
+ 
+ if (HatedFather == true)
+ {
+cDiane55: I have to wonder if you and my Grandfather could have had a relationship, if you had tried to be more understanding.
+ }
+ else
+ {
+cDiane55: Do you think you and my Grandfather could have worked things out?
+cDiane55: You say there wasn't understanding, even though you didn't hate him.
+cDiane55: Do you think you could have found understanding?
+ }
+ 
+cJoseph80: I don't know.
+
+//Cell phone ring SFX plays
+
+cDiane55: That's mine, hold on.
+cDiane55: ...
+cDiane55: Hey, Emma.
+cDiane55: ...
+cDiane55: What time?
+cDiane55: ...
+cDiane55: ...
+cDiane55: Alright, I'll be there soon.
+cDiane55: ...
+cDiane55: Ok. See ya.
+cJoseph80: Gotta run?
+cDiane55: Yes. But I'll be back tomorrow.
+cJoseph80: Diane...
+cDiane55: Dad?
+cJoseph80: Thank you.
+cDiane55: Of course, Dad. I'll see you soon.
+cJoseph80: Drive safe.
+
+//Diane leaves room
+cJoseph80: Soon...
+
+ player.ChangeRoom(4,50,190);]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Text xml:space="preserve">I didn't approve</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Text xml:space="preserve">I was happy for you</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
+          <Dialog>
+            <ID>5</ID>
+            <Name>dScene2Dialog1</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+        </Dialogs>
       </DialogFolder>
     </Dialogs>
     <Cursors>
@@ -1483,7 +2080,23 @@
       <PaletteEntry Index="255" Type="Background" Red="120" Green="120" Blue="120" />
     </Palette>
     <GlobalVariables>
-      <Variables />
+      <Variables>
+        <GlobalVariable>
+          <Name>BelievesInGod</Name>
+          <Type>bool</Type>
+          <DefaultValue>true</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>AttendedFathersFuneral</Name>
+          <Type>bool</Type>
+          <DefaultValue>true</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>HatedFather</Name>
+          <Type>bool</Type>
+          <DefaultValue>true</DefaultValue>
+        </GlobalVariable>
+      </Variables>
     </GlobalVariables>
     <Sprites>
       <SpriteFolder Name="Main">
@@ -1525,7 +2138,18 @@
             </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="Characters">
-            <SubFolders />
+            <SubFolders>
+              <SpriteFolder Name="Joseph">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="31" Width="60" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Characters\Joseph\joseph_portrait_scene1_60x80revision.png</FileName>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
+            </SubFolders>
             <Sprites>
               <Sprite Slot="18" Width="30" Height="83" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
               <Sprite Slot="19" Width="30" Height="83" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
@@ -1542,6 +2166,74 @@
               <Sprite Slot="30" Width="30" Height="83" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
             </Sprites>
           </SpriteFolder>
+          <SpriteFolder Name="cJessicaImport">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="32" Width="36" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="True" />
+              <Sprite Slot="33" Width="23" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="34" Width="23" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="35" Width="23" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="36" Width="23" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="37" Width="23" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="38" Width="23" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="39" Width="29" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="40" Width="29" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="41" Width="29" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="42" Width="29" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="43" Width="29" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="44" Width="29" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="45" Width="29" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="46" Width="29" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="47" Width="29" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="48" Width="29" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="49" Width="29" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="50" Width="29" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="51" Width="29" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="52" Width="29" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="53" Width="23" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="54" Width="23" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="55" Width="23" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="56" Width="23" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="57" Width="23" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="58" Width="23" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="59" Width="23" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="60" Width="125" Height="165" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
+            </Sprites>
+          </SpriteFolder>
+          <SpriteFolder Name="cJessicaImport">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="61" Width="36" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="True" />
+              <Sprite Slot="62" Width="23" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="63" Width="23" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="64" Width="23" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="65" Width="23" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="66" Width="23" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="67" Width="23" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="68" Width="29" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="69" Width="29" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="70" Width="29" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="71" Width="29" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="72" Width="29" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="73" Width="29" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="74" Width="29" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="75" Width="29" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="76" Width="29" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="77" Width="29" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="78" Width="29" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="79" Width="29" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="80" Width="29" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="81" Width="29" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="82" Width="23" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="83" Width="23" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="84" Width="23" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="85" Width="23" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="86" Width="23" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="87" Width="23" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="88" Width="23" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="89" Width="125" Height="165" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
+            </Sprites>
+          </SpriteFolder>
         </SubFolders>
         <Sprites>
           <Sprite Slot="0" Width="1" Height="1" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
@@ -1555,7 +2247,7 @@
         <Views>
           <View>
             <ID>1</ID>
-            <Name>VIEW1</Name>
+            <Name>Empty</Name>
             <Loops>
               <Loop>
                 <ID>0</ID>
@@ -1605,7 +2297,7 @@
           </View>
           <View>
             <ID>2</ID>
-            <Name>egoWlk</Name>
+            <Name>TempStand</Name>
             <Loops>
               <Loop>
                 <ID>0</ID>
@@ -1663,7 +2355,7 @@
           </View>
           <View>
             <ID>3</ID>
-            <Name>egoTlk</Name>
+            <Name>Joseph80Talk</Name>
             <Loops>
               <Loop>
                 <ID>0</ID>
@@ -1671,35 +2363,83 @@
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>21</Image>
+                    <Image>31</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames />
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames />
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames />
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>4</ID>
+            <Name>TempWalk</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>32</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>1</ID>
-                    <Image>22</Image>
+                    <Image>33</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>2</ID>
-                    <Image>23</Image>
+                    <Image>34</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>3</ID>
-                    <Image>24</Image>
+                    <Image>35</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>4</ID>
-                    <Image>25</Image>
+                    <Image>36</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>37</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>6</ID>
+                    <Image>38</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -1712,35 +2452,49 @@
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>26</Image>
+                    <Image>39</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>1</ID>
-                    <Image>27</Image>
+                    <Image>40</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>2</ID>
-                    <Image>28</Image>
+                    <Image>41</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>3</ID>
-                    <Image>29</Image>
+                    <Image>42</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>4</ID>
-                    <Image>30</Image>
+                    <Image>43</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>44</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>6</ID>
+                    <Image>45</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -1753,36 +2507,50 @@
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>26</Image>
-                    <Flipped>True</Flipped>
+                    <Image>46</Image>
+                    <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>1</ID>
-                    <Image>27</Image>
-                    <Flipped>True</Flipped>
+                    <Image>47</Image>
+                    <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>2</ID>
-                    <Image>28</Image>
-                    <Flipped>True</Flipped>
+                    <Image>48</Image>
+                    <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>3</ID>
-                    <Image>29</Image>
-                    <Flipped>True</Flipped>
+                    <Image>49</Image>
+                    <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>4</ID>
-                    <Image>30</Image>
-                    <Flipped>True</Flipped>
+                    <Image>50</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>51</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>6</ID>
+                    <Image>52</Image>
+                    <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
@@ -1794,7 +2562,68 @@
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>20</Image>
+                    <Image>53</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>54</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>55</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>56</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>57</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>58</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>6</ID>
+                    <Image>59</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>5</ID>
+            <Name>TempFace</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>60</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -1806,7 +2635,10 @@
         </Views>
       </ViewFolder>
     </Views>
-    <DeletedViews />
+    <DeletedViews>
+      <ViewID>6</ViewID>
+      <ViewID>7</ViewID>
+    </DeletedViews>
     <Scripts>
       <ScriptFolder Name="Main">
         <SubFolders />
@@ -1889,7 +2721,7 @@
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2012-02-10 05:06:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2012-02-07 13:06:18Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName xml:space="preserve">C:\Users\Björn 'Ghost' Ludwig\Desktop\Mythaumatology Assets\Assets\LostCraftHowl.wav</SourceFileName>
@@ -1901,7 +2733,7 @@
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2012-02-10 05:06:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2012-02-07 13:06:18Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName xml:space="preserve">C:\Users\Björn 'Ghost' Ludwig\Desktop\Mythaumatology Assets\Assets\RadioNoise.WAV</SourceFileName>
@@ -1913,7 +2745,7 @@
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>1999-02-11 13:58:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>1999-02-08 21:58:18Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
@@ -1983,7 +2815,7 @@
   <Component Name="Scripts" />
   <Component Name="SpeechCenter">
     <SpeechCenter Version="2.0.4.0">
-      <Document Version="2.0.0.0">
+      <Document Version="2.0.0.0" LastRefresh="2015-06-24T19:43:49.0833087Z">
         <Settings>
           <CustomFunctions />
           <VoiceActorScripts NewParagraph="PER_FUNCTION">
@@ -2003,7 +2835,1003 @@
           <Translations EnableEditing="false" />
           <Edit ShowWarning="true" ExitEditModeAfterSave="true" RefreshProjectAfterSave="Any" />
         </Settings>
-        <SpeechLines />
+        <SpeechLines>
+          <Speech CharacterID="1000">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I see nothing special about it." Location="GlobalScript.asc" Function="unhandled_event" LineNum="65" Type="GLOBAL" SpeechFunction="Say" BlockNumber="6.0.0" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1000">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I can't do anything with it." Location="GlobalScript.asc" Function="unhandled_event" LineNum="69" Type="GLOBAL" SpeechFunction="Say" BlockNumber="6.0.1" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1000">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="That won't do anything." Location="GlobalScript.asc" Function="unhandled_event" LineNum="73" Type="GLOBAL" SpeechFunction="Say" BlockNumber="6.0.2" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1000">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Looks alright." Location="GlobalScript.asc" Function="unhandled_event" LineNum="80" Type="GLOBAL" SpeechFunction="Say" BlockNumber="6.1.0" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1000">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I don't want to have it." Location="GlobalScript.asc" Function="unhandled_event" LineNum="84" Type="GLOBAL" SpeechFunction="Say" BlockNumber="6.1.1" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1000">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="That's a funny idea." Location="GlobalScript.asc" Function="unhandled_event" LineNum="88" Type="GLOBAL" SpeechFunction="Say" BlockNumber="6.1.2" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1000">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Hm." Location="GlobalScript.asc" Function="unhandled_event" LineNum="95" Type="GLOBAL" SpeechFunction="Say" BlockNumber="6.2.0" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1000">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Got nothing to say." Location="GlobalScript.asc" Function="unhandled_event" LineNum="99" Type="GLOBAL" SpeechFunction="Say" BlockNumber="6.2.1" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1000">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I don't think I should give that away." Location="GlobalScript.asc" Function="unhandled_event" LineNum="103" Type="GLOBAL" SpeechFunction="Say" BlockNumber="6.2.2" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1000">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="It's just some junk in my inventory." Location="GlobalScript.asc" Function="unhandled_event" LineNum="110" Type="GLOBAL" SpeechFunction="Say" BlockNumber="6.3.0" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1000">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Er, no?" Location="GlobalScript.asc" Function="unhandled_event" LineNum="114" Type="GLOBAL" SpeechFunction="Say" BlockNumber="6.3.1" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1000">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="That's ridiculous." Location="GlobalScript.asc" Function="unhandled_event" LineNum="118" Type="GLOBAL" SpeechFunction="Say" BlockNumber="6.3.2" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1000">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Just jerky enough." Location="GlobalScript.asc" Function="iBeefJerky_Look" LineNum="155" Type="GLOBAL" SpeechFunction="Say" BlockNumber="11" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1000">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="You sure see them a lot these days!" Location="GlobalScript.asc" Function="iBlueCup_Look" LineNum="161" Type="GLOBAL" SpeechFunction="Say" BlockNumber="12" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1000">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="It's for holding coffee, or tea, or MAYBE cocoa. Nothing else." Location="GlobalScript.asc" Function="iBlueCup_UseInv" LineNum="166" Type="GLOBAL" SpeechFunction="Say" BlockNumber="13" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1000">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I just started to learn how to play them." Location="GlobalScript.asc" Function="iPipes_Look" LineNum="175" Type="GLOBAL" SpeechFunction="Say" BlockNumber="14" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1000">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Pfeeeeeeeehhhhppppphrrrrrfff..." Location="GlobalScript.asc" Function="iPipes_Interact" LineNum="180" Type="GLOBAL" SpeechFunction="Say" BlockNumber="15" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I was born on a farm in Alberta, along the Rockies." Location="room2.asc" Function="room_AfterFadeIn" LineNum="5" Type="ROOM" SpeechFunction="Say" BlockNumber="0" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="My mother passed when I was still to young to work, and my father cared for my sister and I." Location="room2.asc" Function="room_AfterFadeIn" LineNum="6" Type="ROOM" SpeechFunction="Say" BlockNumber="0" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="When I was eight years old, I experienced somthing very odd." Location="room2.asc" Function="room_AfterFadeIn" LineNum="7" Type="ROOM" SpeechFunction="Say" BlockNumber="0" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I was running through the high grass near the river, when a bright light illuminated the sky." Location="room2.asc" Function="room_AfterFadeIn" LineNum="8" Type="ROOM" SpeechFunction="Say" BlockNumber="0" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="It flashed twice, then slowly descended, until it fell into my outstretched palm." Location="room2.asc" Function="room_AfterFadeIn" LineNum="9" Type="ROOM" SpeechFunction="Say" BlockNumber="0" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I experienced something that I do not understand." Location="room2.asc" Function="room_AfterFadeIn" LineNum="10" Type="ROOM" SpeechFunction="Say" BlockNumber="0" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="What do you think it was?" Location="Dialog 0" Function="Start" LineNum="4" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="At the time I thought it was some kind of greater power, calling down to me." Location="Dialog 0" Function="Start" LineNum="5" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="And now?" Location="Dialog 0" Function="Start" LineNum="6" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I still believe it may have been God." Location="Dialog 0" Function="Option 1" LineNum="14" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I think it was some kind of higher power. Talking to me. Telling me I would be ok." Location="Dialog 0" Function="Option 1" LineNum="15" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="You've never told me about this." Location="Dialog 0" Function="Option 1" LineNum="16" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I used to avoid thinking about it." Location="Dialog 0" Function="Option 1" LineNum="17" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I like it, Dad." Location="Dialog 0" Function="Option 1" LineNum="18" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I don't know what it was. But I don't believe in a higher power." Location="Dialog 0" Function="Option 2" LineNum="24" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I believe you saw something, though." Location="Dialog 0" Function="Option 2" LineNum="25" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="More and more I think about it, the more I think I just saw what I needed to see, and that's all there was to it." Location="Dialog 0" Function="Option 2" LineNum="26" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Something that would get me as far as possible from..." Location="Dialog 0" Function="Option 2" LineNum="27" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="..." Location="Dialog 0" Function="Option 2" LineNum="28" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="It was lonely out there. Just had my sister." Location="Dialog 0" Function="Option 2" LineNum="29" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Aunt Cheryl talks enough for four people." Location="Dialog 0" Function="Option 2" LineNum="30" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Heh! Isn't that the truth..." Location="Dialog 0" Function="Option 2" LineNum="31" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1000">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="It was God" Location="Dialog 0" Function="Option 1" LineNum="12" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1000">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="It was not God" Location="Dialog 0" Function="Option 2" LineNum="22" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="..." Location="Dialog 1" Function="Start" LineNum="4" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="..." Location="Dialog 1" Function="Start" LineNum="5" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I'm probably not leaving this hospital, Diane." Location="Dialog 1" Function="Start" LineNum="6" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Dad..." Location="Dialog 1" Function="Start" LineNum="7" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="..." Location="Dialog 1" Function="Start" LineNum="8" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Do you remember when you were in high school, and I was in a car wreck?" Location="Dialog 1" Function="Start" LineNum="9" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Yes." Location="Dialog 1" Function="Start" LineNum="10" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I was going... had to be 150, 160. Just outside of Toronto." Location="Dialog 1" Function="Start" LineNum="11" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Your Mom had left me and I didn't know what to do." Location="Dialog 1" Function="Start" LineNum="12" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I remember." Location="Dialog 1" Function="Start" LineNum="13" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="And I remember dangling upside down, and struggling to get my seatbelt unhooked..." Location="Dialog 1" Function="Start" LineNum="14" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="And then I stopped, and just hung there. I gave up." Location="Dialog 1" Function="Start" LineNum="15" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I thought, please, God, come to me, speak to me like you spoke to me that day on the farm." Location="Dialog 1" Function="Start" LineNum="18" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I didn't know what to do. I was to scared to survive, and not religious enough to pray." Location="Dialog 1" Function="Start" LineNum="22" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="..." Location="Dialog 1" Function="Start" LineNum="24" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="..." Location="Dialog 1" Function="Start" LineNum="25" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I'm glad I lived." Location="Dialog 1" Function="Start" LineNum="26" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I know." Location="Dialog 1" Function="Start" LineNum="27" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I'm glad you're here. Right now, I mean." Location="Dialog 1" Function="Start" LineNum="28" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="..." Location="Dialog 1" Function="Start" LineNum="29" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I know." Location="Dialog 1" Function="Start" LineNum="30" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="..." Location="Dialog 1" Function="Start" LineNum="31" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="How are things at home?" Location="Dialog 1" Function="Start" LineNum="32" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="What's Paul up to lately?" Location="Dialog 1" Function="Option 1" LineNum="39" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="He's taking retirement hard." Location="Dialog 1" Function="Option 1" LineNum="40" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I did too, at first." Location="Dialog 1" Function="Option 1" LineNum="41" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="He's been seeing his friends more, though." Location="Dialog 1" Function="Option 1" LineNum="42" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="From work?" Location="Dialog 1" Function="Option 1" LineNum="43" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Mostly. Sometimes his best friend he grew up with visits." Location="Dialog 1" Function="Option 1" LineNum="44" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="That's good." Location="Dialog 1" Function="Option 1" LineNum="45" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Are Liz and Emma doing ok?" Location="Dialog 1" Function="Option 2" LineNum="48" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Liz is doing fine. She's been looking up and down for colleges." Location="Dialog 1" Function="Option 2" LineNum="49" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Oh, yeah. What's she majoring in?" Location="Dialog 1" Function="Option 2" LineNum="50" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="She doesn't know yet. Just getting her general degree." Location="Dialog 1" Function="Option 2" LineNum="51" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Emma, of course, getting straight A's in everything. You know her." Location="Dialog 1" Function="Option 2" LineNum="52" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Well, I'd like to see both of them." Location="Dialog 1" Function="Option 2" LineNum="53" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I know, Dad. They're just both so busy now..." Location="Dialog 1" Function="Option 2" LineNum="54" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I'm fine." Location="Dialog 1" Function="Option 3" LineNum="58" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="You've been coming here too often, Diane." Location="Dialog 1" Function="Option 3" LineNum="59" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I said I'm fine, Dad." Location="Dialog 1" Function="Option 3" LineNum="60" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Because I can-" Location="Dialog 1" Function="Option 3" LineNum="61" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Dad." Location="Dialog 1" Function="Option 3" LineNum="62" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="You're fine." Location="Dialog 1" Function="Option 3" LineNum="63" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I'm fine." Location="Dialog 1" Function="Option 3" LineNum="64" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1000">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="How's Paul doing?" Location="Dialog 1" Function="Option 1" LineNum="37" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1000">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="How are Liz and Emma?" Location="Dialog 1" Function="Option 2" LineNum="47" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1000">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="How have you been?" Location="Dialog 1" Function="Option 3" LineNum="57" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="..." Location="Dialog 2" Function="Start" LineNum="4" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Diane?" Location="Dialog 2" Function="Start" LineNum="5" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="What?" Location="Dialog 2" Function="Start" LineNum="6" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="When I go, I want them there." Location="Dialog 2" Function="Start" LineNum="7" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="For the funeral." Location="Dialog 2" Function="Start" LineNum="8" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Of course they'll be there, Dad." Location="Dialog 2" Function="Start" LineNum="9" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I'll never forgive myself for what I did." Location="Dialog 2" Function="Option 1" LineNum="15" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I was angry, but missing my own father's funeral..." Location="Dialog 2" Function="Option 1" LineNum="16" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="It's alright. I'm sure he knew you cared about him." Location="Dialog 2" Function="Option 1" LineNum="17" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="It was disgusting. I was a coward." Location="Dialog 2" Function="Option 1" LineNum="18" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="And I'll pay for it, when the time comes." Location="Dialog 2" Function="Option 1" LineNum="21" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="That wasn't a sin, Dad." Location="Dialog 2" Function="Option 1" LineNum="22" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Of course it was." Location="Dialog 2" Function="Option 1" LineNum="23" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="You can't let go of that." Location="Dialog 2" Function="Option 1" LineNum="27" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Burying my father was..." Location="Dialog 2" Function="Option 2" LineNum="33" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="He and I never got closure. At all. I hadn't seen him since I left home." Location="Dialog 2" Function="Option 2" LineNum="34" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I know. Mom told me." Location="Dialog 2" Function="Option 2" LineNum="35" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Well, I'll never feel good about our relationship." Location="Dialog 2" Function="Option 2" LineNum="36" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="But I know that Cheryl appreciated it. And that's why I went." Location="Dialog 2" Function="Option 2" LineNum="37" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I'm glad I went." Location="Dialog 2" Function="Option 2" LineNum="38" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="God only knows if the old man would've wanted me there." Location="Dialog 2" Function="Option 2" LineNum="41" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I still don't know if the old man wouldn've wanted me there." Location="Dialog 2" Function="Option 2" LineNum="45" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Anyway, I want you there for mine." Location="Dialog 2" Function="Option 2" LineNum="47" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I will be, Dad." Location="Dialog 2" Function="Option 2" LineNum="48" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1000">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I didn't go to my father's funeral" Location="Dialog 2" Function="Option 1" LineNum="13" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1000">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I went to my father's funeral" Location="Dialog 2" Function="Option 2" LineNum="31" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="You've never talked about him before. Not like this." Location="Dialog 3" Function="Start" LineNum="4" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I'm at the point where I won't get to later." Location="Dialog 3" Function="Start" LineNum="5" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Nobody deserves to be completely forgotten. Not even him." Location="Dialog 3" Function="Start" LineNum="6" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="What... what happened between you two?" Location="Dialog 3" Function="Start" LineNum="7" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="He wasn't what you'd call a loving parent." Location="Dialog 3" Function="Start" LineNum="8" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="After my mother died, I became the target of his grief." Location="Dialog 3" Function="Start" LineNum="9" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="One day I had to stand up to him. And I did." Location="Dialog 3" Function="Start" LineNum="10" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="The next day, I left home. And I never saw him again." Location="Dialog 3" Function="Start" LineNum="11" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Until the funeral." Location="Dialog 3" Function="Start" LineNum="14" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="..." Location="Dialog 3" Function="Start" LineNum="18" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="When you left... did you hate him?" Location="Dialog 3" Function="Start" LineNum="20" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Oh, I sure did." Location="Dialog 3" Function="Option 1" LineNum="26" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I hated him like no other." Location="Dialog 3" Function="Option 1" LineNum="27" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="And even when I was forty, and heard he died, I still hated him." Location="Dialog 3" Function="Option 1" LineNum="30" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Part of me still hates him. And the other part of me is just sad." Location="Dialog 3" Function="Option 1" LineNum="31" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="What's happened happened. Can't do anything about it." Location="Dialog 3" Function="Option 1" LineNum="32" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I wish I'd gone to his funeral..." Location="Dialog 3" Function="Option 1" LineNum="33" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="But by the time he died, I was forty years old, and realized I would never understand him." Location="Dialog 3" Function="Option 1" LineNum="37" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Part of me still hates him. And the other part of me is just sad." Location="Dialog 3" Function="Option 1" LineNum="38" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="What's happened happened. Can't do anything about it." Location="Dialog 3" Function="Option 1" LineNum="39" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I'm glad I went to his funeral." Location="Dialog 3" Function="Option 1" LineNum="40" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Thank you for telling me about him." Location="Dialog 3" Function="Option 1" LineNum="43" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I should have a long time ago." Location="Dialog 3" Function="Option 1" LineNum="44" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I'm sorry." Location="Dialog 3" Function="Option 1" LineNum="45" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="..." Location="Dialog 3" Function="Option 1" LineNum="46" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="No. I was angry, but... I knew I didn't understand." Location="Dialog 3" Function="Option 2" LineNum="52" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I would never understand him. We were just too different." Location="Dialog 3" Function="Option 2" LineNum="53" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Growing up, he'd tell me how I was just like my mother." Location="Dialog 3" Function="Option 2" LineNum="54" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="And he was right, I was." Location="Dialog 3" Function="Option 2" LineNum="55" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I couldn't live with him anymore. So I left." Location="Dialog 3" Function="Option 2" LineNum="56" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="It's good that you went to the funeral." Location="Dialog 3" Function="Option 2" LineNum="59" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Yes, it was." Location="Dialog 3" Function="Option 2" LineNum="60" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Why didn't you go to the funeral?" Location="Dialog 3" Function="Option 2" LineNum="64" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I left him and never came back. How could I?" Location="Dialog 3" Function="Option 2" LineNum="65" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Thank you for telling me about him." Location="Dialog 3" Function="Option 2" LineNum="68" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I should have a long time ago." Location="Dialog 3" Function="Option 2" LineNum="69" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I'm sorry." Location="Dialog 3" Function="Option 2" LineNum="70" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="..." Location="Dialog 3" Function="Option 2" LineNum="71" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1000">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I hated him" Location="Dialog 3" Function="Option 1" LineNum="24" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1000">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="No, I didn't hate him" Location="Dialog 3" Function="Option 2" LineNum="50" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Dad, you know, when I divorced Eric?" Location="Dialog 4" Function="Start" LineNum="4" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I remember. I didn't understand." Location="Dialog 4" Function="Option 1" LineNum="9" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Well... I was furious with you." Location="Dialog 4" Function="Option 1" LineNum="10" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I know." Location="Dialog 4" Function="Option 1" LineNum="11" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Just like when you hated my Grandfather." Location="Dialog 4" Function="Option 1" LineNum="14" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I know." Location="Dialog 4" Function="Option 1" LineNum="15" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="After you and Mom divorced, for you to say..." Location="Dialog 4" Function="Option 1" LineNum="16" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="It was stupid. And I still don't understand why I said what I said." Location="Dialog 4" Function="Option 1" LineNum="17" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I'm sorry." Location="Dialog 4" Function="Option 1" LineNum="18" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Don't be. It was twenty years ago. I'm past it." Location="Dialog 4" Function="Option 1" LineNum="19" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I just... I understand how you felt. When you left your father." Location="Dialog 4" Function="Option 1" LineNum="20" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I didn't hate you though." Location="Dialog 4" Function="Option 1" LineNum="24" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Well, you're like me. You always have been." Location="Dialog 4" Function="Option 1" LineNum="25" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="You couldn't hate your father, I can't hate mine." Location="Dialog 4" Function="Option 1" LineNum="26" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I don't understand how it works. But I don't mind." Location="Dialog 4" Function="Option 1" LineNum="27" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I remember when you and Mom got divorced, and I felt like my life was being torn apart." Location="Dialog 4" Function="Option 2" LineNum="31" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Well, sure. You know, when I went through my divorce, we got a lot of comments from our church." Location="Dialog 4" Function="Option 2" LineNum="34" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="It was '73. People gave us a hard time." Location="Dialog 4" Function="Option 2" LineNum="35" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Well, sure. My divorce was no party. I understood." Location="Dialog 4" Function="Option 2" LineNum="39" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Your understanding was what got me through all of that." Location="Dialog 4" Function="Option 2" LineNum="42" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I have to wonder if you and my Grandfather could have had a relationship, if you had tried to be more understanding." Location="Dialog 4" Function="Option 2" LineNum="46" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Do you think you and my Grandfather could have worked things out?" Location="Dialog 4" Function="Option 2" LineNum="50" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="You say there wasn't understanding, even though you didn't hate him." Location="Dialog 4" Function="Option 2" LineNum="51" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Do you think you could have found understanding?" Location="Dialog 4" Function="Option 2" LineNum="52" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I don't know." Location="Dialog 4" Function="Option 2" LineNum="55" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="That's mine, hold on." Location="Dialog 4" Function="Option 2" LineNum="59" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="..." Location="Dialog 4" Function="Option 2" LineNum="60" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Hey, Emma." Location="Dialog 4" Function="Option 2" LineNum="61" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="..." Location="Dialog 4" Function="Option 2" LineNum="62" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="What time?" Location="Dialog 4" Function="Option 2" LineNum="63" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="..." Location="Dialog 4" Function="Option 2" LineNum="64" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="..." Location="Dialog 4" Function="Option 2" LineNum="65" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Alright, I'll be there soon." Location="Dialog 4" Function="Option 2" LineNum="66" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="..." Location="Dialog 4" Function="Option 2" LineNum="67" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Ok. See ya." Location="Dialog 4" Function="Option 2" LineNum="68" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Gotta run?" Location="Dialog 4" Function="Option 2" LineNum="69" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Yes. But I'll be back tomorrow." Location="Dialog 4" Function="Option 2" LineNum="70" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Diane..." Location="Dialog 4" Function="Option 2" LineNum="71" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Dad?" Location="Dialog 4" Function="Option 2" LineNum="72" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Thank you." Location="Dialog 4" Function="Option 2" LineNum="73" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Of course, Dad. I'll see you soon." Location="Dialog 4" Function="Option 2" LineNum="74" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Drive safe." Location="Dialog 4" Function="Option 2" LineNum="75" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="-1">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="Soon..." Location="Dialog 4" Function="Option 2" LineNum="77" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1000">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I didn't approve" Location="Dialog 4" Function="Option 1" LineNum="8" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+          <Speech CharacterID="1000">
+            <ScriptLines>
+              <ScriptLine Text="" OriginalText="I was happy for you" Location="Dialog 4" Function="Option 2" LineNum="30" Type="DIALOG" SpeechFunction="N/A" BlockNumber="" />
+            </ScriptLines>
+          </Speech>
+        </SpeechLines>
         <Translations />
       </Document>
     </SpeechCenter>
