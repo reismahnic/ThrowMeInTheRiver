@@ -1150,14 +1150,14 @@
                 <ID>4</ID>
                 <ScriptName>cDiane35</ScriptName>
                 <RealName>Diane</RealName>
-                <NormalView>4</NormalView>
+                <NormalView>1</NormalView>
                 <SpeechView>5</SpeechView>
                 <IdleView>0</IdleView>
                 <ThinkingView>0</ThinkingView>
                 <BlinkingView>0</BlinkingView>
                 <StartingRoom>4</StartingRoom>
-                <StartX>168</StartX>
-                <StartY>150</StartY>
+                <StartX>60</StartX>
+                <StartY>190</StartY>
                 <UniformMovementSpeed>True</UniformMovementSpeed>
                 <MovementSpeed>7</MovementSpeed>
                 <MovementSpeedX>0</MovementSpeedX>
@@ -1265,8 +1265,8 @@ goto-dialog dScene1Dialog2
 
 @2
  BelievesInGod = false;
-cJoseph80: I don't know what it was. But I don't believe in a higher power.
-cDiane55: I believe you saw something, though.
+cJoseph80: It was something. But I don't believe in a higher power.
+cDiane55: You saw something, though. I can tell.
 cJoseph80: More and more I think about it, the more I think I just saw what I needed to see, and that's all there was to it.
 cJoseph80: Something that would get me as far as possible from...
 cJoseph80: ...
@@ -1283,7 +1283,7 @@ goto-dialog dScene1Dialog2]]></Script>
               </DialogOption>
               <DialogOption>
                 <ID>2</ID>
-                <Text xml:space="preserve">It was not God</Text>
+                <Text xml:space="preserve">I don't know what it was</Text>
                 <Show>True</Show>
                 <Say>False</Say>
               </DialogOption>
@@ -1548,10 +1548,10 @@ goto-dialog dScene1Dialog5]]></Script>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 
-cDiane55: Dad, you know, when I divorced Eric?
-
+cDiane55: Dad, you know when I divorced Eric?
 
 return
+
 @1
  UnderstoodDivorce = false;
 cJoseph80: I remember. I didn't understand.
@@ -1574,6 +1574,26 @@ cJoseph80: Well, you're like me. You always have been.
 cDiane55: You couldn't hate your father, I can't hate mine.
 cJoseph80: I don't understand how it works. But I don't mind.
  }
+ 
+ //Cell phone ring SFX plays
+
+ cDiane55: That's mine, hold on.
+cDiane55: ...
+cDiane55: Hey, Emma.
+cDiane55: ...
+cDiane55: What time?
+cDiane55: ...
+cDiane55: ...
+cDiane55: Alright, I'll be there soon.
+cDiane55: ...
+cDiane55: Ok. See ya.
+cJoseph80: Gotta run?
+cDiane55: Yes. But I'll be back tomorrow.
+cJoseph80: Diane...
+cDiane55: Dad?
+cJoseph80: Thank you.
+
+ player.ChangeRoom(3);
 
 @2
  UnderstoodDivorce = true;
@@ -1606,6 +1626,7 @@ cJoseph80: I don't know.
 
 //Cell phone ring SFX plays
 
+cDiane55: DSHSERJHSERHXFHDR  GDRGDRFD R GDD RCGCH R G
 cDiane55: That's mine, hold on.
 cDiane55: ...
 cDiane55: Hey, Emma.
@@ -1621,13 +1642,8 @@ cDiane55: Yes. But I'll be back tomorrow.
 cJoseph80: Diane...
 cDiane55: Dad?
 cJoseph80: Thank you.
-cDiane55: Of course, Dad. I'll see you soon.
-cJoseph80: Drive safe.
 
-//Diane leaves room
-cJoseph80: Soon...
-
- player.ChangeRoom(3,50,190);]]></Script>
+ player.ChangeRoom(3);]]></Script>
             <DialogOptions>
               <DialogOption>
                 <ID>1</ID>
@@ -1651,8 +1667,90 @@ cJoseph80: Soon...
 @S  // Dialog startup entry point
 
 
-cDiane35: I... I have to tell you something, Dad.
-cJoseph60: What is it?
+cDiane35: Dad, I have a question about Mom and you.
+cJoseph60: Uh oh.
+cDiane35: How was your divorce?
+cDiane35: I know you both pretended it went smoothly and you were both civil, but...
+cDiane35: How was it, really?
+
+return
+
+
+@1
+ if (BelievesInGod == true)
+ {
+cJoseph60: Well, you know. The church community wasn't thrilled.
+ }
+ else
+ {
+cJoseph60: Well, you know. The community we lived in wasn't thrilled.
+ }
+cDiane35: I remember. Got made fun of a lot by the other kids.
+cJoseph60: So we put on a show. For you, for everyone. It was the 70's.
+cDiane35: You shouldn't have lied.
+cJoseph60: Listen, Diane... I'm not getting into what actually happened. It was bad.
+cDiane35: I've asked Mom about it. She never tells me what went on.
+cJoseph60: Well, she wouldn't. I hurt her, and she hurt me. It wasn't easy for either of us.
+cDiane35: ...
+
+goto-dialog dScene2Dialog2
+
+@2
+
+cJoseph60: We tried our best to keep from hurting each other.
+cJoseph60: We had our spats, but we really did both want out.
+cDiane35: I'm glad you guys didn't keep me in the dark, then.
+cJoseph60: No, we wouldn't lie to you.
+cDiane35: Thanks.
+
+goto-dialog dScene2Dialog2
+]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Text xml:space="preserve">It was a mess</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Text xml:space="preserve">It actually was civil</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
+          <Dialog>
+            <ID>7</ID>
+            <Name>dScene2Dialog2</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+
+//SFX Tea whistle
+
+cJoseph60: I'll get that.
+ cJoseph60.Walk(164,150,eBlock);
+//SFX ends
+cDiane35: Dad?
+cJoseph60: What's that?
+cDiane35: Come back in, I have to tell you something.
+cJoseph60: One second.
+ cJoseph60.Walk(130,234);
+
+goto-dialog dScene2Dialog3
+
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>6</ID>
+            <Name>dScene2Dialog3</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+
+cJoseph60: What's up?
 cDiane35: Eric and I are separating.
 cJoseph60: What?
 cDiane35: We both agreed to it. There's nothing there anymore.
@@ -1665,7 +1763,20 @@ cJoseph60: You know when your Mom and I got divorced... it wasn't fair, what we 
 cJoseph60: I just hope you two are okay with this.
 cDiane35: We are. It's not working.
 cJoseph60: ...Well, if it's not working, it's not working.
+cDiane35: Dad... thanks for understanding. Thank you.
  }
+ else
+ {
+cJoseph60: This is a joke, right?
+cDiane35: What?
+cJoseph60: You heard me.
+cDiane35: Dad?
+cJoseph60: Are you really going to tell me you're making the same mistakes I did?
+cJoseph60: Do you have any idea what my life has been since...
+cDiane35: Excuse me? Are you really going to make this about you?
+cJoseph60: Well it sounds to me like you were already set on that!
+cDiane35: Oh, wow.
+ }  
 
 
 return
@@ -2736,7 +2847,7 @@ return
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2012-02-06 13:06:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2012-02-06 05:06:18Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName xml:space="preserve">C:\Users\Björn 'Ghost' Ludwig\Desktop\Mythaumatology Assets\Assets\LostCraftHowl.wav</SourceFileName>
@@ -2748,7 +2859,7 @@ return
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2012-02-06 13:06:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2012-02-06 05:06:18Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName xml:space="preserve">C:\Users\Björn 'Ghost' Ludwig\Desktop\Mythaumatology Assets\Assets\RadioNoise.WAV</SourceFileName>
@@ -2760,7 +2871,7 @@ return
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>1999-02-07 21:58:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>1999-02-07 13:58:18Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
