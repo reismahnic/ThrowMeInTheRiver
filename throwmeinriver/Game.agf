@@ -1896,10 +1896,140 @@ cJoseph60: Diane!
           </Dialog>
           <Dialog>
             <ID>8</ID>
-            <Name>dScene3Dialog1</Name>
+            <Name>dScene3Funeral</Name>
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
+
+cJoseph40: Hi.
+cCheryl: Hi.
+cJoseph40: Well don't get up and hug me or anything.
+cCheryl: Sorry, I just...
+cJoseph40: You okay?
+cCheryl: Yeah. Last week just... took a lot out of me.
+cJoseph40: I know.
+cJoseph40: It was weird, seeing him there.
+cCheryl: Not for me.
+cCheryl: I've been watching him go for months now.
+cCheryl: ...
+ if (HatedFather == true)
+ {
+cCheryl: I know you hated him fo what he did to you. And it wasn't fair of him.
+ }
+ else
+ {
+cCheryl: There was some level of understanding between you two. You both knew you had to leave.
+cCheryl: I know you had your reasons for leaving. And I've never blamed you for that.
+ }
+cCheryl: But it hasn't made this any easier.
+cJoseph40: I'm sorry.
+cCheryl: I'm glad you made it.
+cJoseph40: So am I.
+cCheryl: How's Diane doing?
+cJoseph40: Working hard. Getting good grades.
+cJoseph40: That's good.
+cCheryl: ...
+ if (WentToCollege == true)
+ {
+cCheryl: I think part of him... just didn't want you to go.
+cCheryl: When you left.
+cJoseph40: I didn't get that when he was yelling at me the night before I left to get out.
+cCheryl: Well, he never would've admitted it. You two were more similar than you'll ever realize.
+cJoseph40: I don't want to talk about this.
+ }
+ else
+ {
+cCheryl: He was proud of you, you know.
+cCheryl: When you left.
+cJoseph40: If he was, he didn't show it.
+cCheryl: No. But he was.
+cCheryl: Went on about how you starting your own business 'made you a man'.
+cJoseph40: I didn't need his validation on that.
+ }
+cCheryl: I know.
+cCheryl: ...
+cCheryl: God, this... this isn't right, is it? This isn't how a brother and sister are supposed to talk...
+cJoseph40: I didn't know there was a way we should talk.
+cCheryl: See that kid with the guitar?
+cJoseph40: Yeah?
+cCheryl: Have him play something.
+cJoseph40: ...What?
+cCheryl: I just... really need to hear some music right now.
+cJoseph40: Uh, I mean, I have... a few nickles...
+ CherylFirstDialogOver=true;
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>9</ID>
+            <Name>dSceneNoFuneral</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+
+cJoseph40: Hi.
+cCheryl: Hi.
+cJoseph40: Uh, listen, I-
+cCheryl: Just... stop. Let me say what I have to say.
+cJoseph40: Okay.
+cCheryl: You said you'd be there. For Dad. You told me you would come last month.
+cJoseph40: I know.
+cCheryl: No. Let me talk. I let you not show up. I let you, because I knew this was difficult for you.
+cCheryl: I've accepted that you would never talk to him again. I don't understand it; I don't know what went on between you two.
+cCheryl: But it was your thing, and not mine, and it was mutual. So whatever.
+cCheryl: But then you weren't there last week. For the funeral.
+ if (HatedFather == true)
+ {
+cCheryl: So you hated him. So what? What on earth gives you the right to not be there for the family?
+ }
+ else
+ {
+cCheryl: You've always said you respected him. What the hell happened to you?
+ }
+cCheryl: To miss your own father's funeral... there is no good reason you can give.
+cJoseph40: I'm sorry.
+cCheryl: I don't care.
+cJoseph40: I know.
+cCheryl: ...
+cCheryl: You're not going to tell me why you left.
+cJoseph40: No.
+ if (WentToCollege == true)
+ {
+cCheryl: When you went to college... everything changed, you know.
+ }
+ else
+ {
+cCheryl: When you and your friend went and started that business... everything changed, you know.
+ }
+cCheryl: You weren't there, but nothing was the same again.
+cCheryl: ...
+cCheryl: I can't hate you. But I'm so... mad...
+cCheryl: ...
+cCheryl: ...
+cCheryl: God, this... this isn't right, is it? This isn't how a brother and sister are supposed to talk...
+cJoseph40: I didn't want this for you.
+cCheryl: ...
+cCheryl: See that kid with the guitar?
+cJoseph40: Yeah?
+cCheryl: Have him play something.
+cJoseph40: ...What?
+cCheryl: I just... really need to hear some music right now.
+cJoseph40: Uh, I mean, I have... a few nickles...
+ CherylFirstDialogOver=true;
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>10</ID>
+            <Name>dScene3Dialog2</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+
+cJoseph40: Hey, kid's not half bad.
+
 return
 ]]></Script>
             <DialogOptions />
@@ -2347,6 +2477,16 @@ return
           <Name>WentToCollege</Name>
           <Type>bool</Type>
           <DefaultValue>true</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>CherylFirstDialogOver</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>ParkMusicIsPlaying</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
@@ -3237,7 +3377,7 @@ return
                 <DefaultVolume>25</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>True</DefaultRepeat>
-                <FileLastModifiedDate>2012-02-02 21:06:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2012-02-02 05:06:18Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\slowjam_Livingroom_RoomTone.wav</SourceFileName>
@@ -3249,7 +3389,7 @@ return
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>1999-02-04 05:58:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>1999-02-03 13:58:18Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\slowjam_transition_1_v1.wav</SourceFileName>
@@ -3261,7 +3401,7 @@ return
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-23 00:10:14Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-22 10:10:14Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\slowjam_CellPhone.wav</SourceFileName>
@@ -3273,7 +3413,7 @@ return
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-25 04:16:59Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-24 14:16:59Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
