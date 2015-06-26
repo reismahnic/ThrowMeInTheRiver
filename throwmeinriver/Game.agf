@@ -1112,24 +1112,24 @@
               <Character>
                 <ID>5</ID>
                 <ScriptName>cJoseph40</ScriptName>
-                <RealName xml:space="preserve">New character</RealName>
+                <RealName>Joseph</RealName>
                 <NormalView>6</NormalView>
                 <SpeechView>3</SpeechView>
                 <IdleView>0</IdleView>
                 <ThinkingView>0</ThinkingView>
                 <BlinkingView>0</BlinkingView>
-                <StartingRoom>-1</StartingRoom>
+                <StartingRoom>5</StartingRoom>
                 <StartX>160</StartX>
                 <StartY>120</StartY>
                 <UniformMovementSpeed>True</UniformMovementSpeed>
-                <MovementSpeed>3</MovementSpeed>
+                <MovementSpeed>7</MovementSpeed>
                 <MovementSpeedX>0</MovementSpeedX>
                 <MovementSpeedY>0</MovementSpeedY>
                 <AnimationDelay>4</AnimationDelay>
                 <SpeechAnimationDelay>5</SpeechAnimationDelay>
                 <SpeechColor>12</SpeechColor>
                 <Solid>True</Solid>
-                <Clickable>True</Clickable>
+                <Clickable>False</Clickable>
                 <UseRoomAreaScaling>True</UseRoomAreaScaling>
                 <UseRoomAreaLighting>True</UseRoomAreaLighting>
                 <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -1243,13 +1243,13 @@
             <ScriptName>cCheryl</ScriptName>
             <RealName>Cheryl</RealName>
             <NormalView>1</NormalView>
-            <SpeechView>0</SpeechView>
+            <SpeechView>5</SpeechView>
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
-            <StartingRoom>-1</StartingRoom>
-            <StartX>208</StartX>
-            <StartY>189</StartY>
+            <StartingRoom>6</StartingRoom>
+            <StartX>502</StartX>
+            <StartY>222</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -1888,6 +1888,16 @@ cJoseph60: Diane!
  player.ChangeRoom(5);
  }  
 
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>8</ID>
+            <Name>dScene3Dialog1</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
 ]]></Script>
             <DialogOptions />
           </Dialog>
@@ -3224,7 +3234,7 @@ cJoseph60: Diane!
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2012-02-04 05:06:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2012-02-03 21:06:18Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\slowjam_CellPhone.wav</SourceFileName>
@@ -3236,7 +3246,7 @@ cJoseph60: Diane!
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2012-02-04 05:06:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2012-02-03 21:06:18Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\slowjam_Livingroom_RoomTone.wav</SourceFileName>
@@ -3248,7 +3258,7 @@ cJoseph60: Diane!
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>1999-02-05 13:58:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>1999-02-05 05:58:18Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\slowjam_transition_1_v1.wav</SourceFileName>
@@ -3260,7 +3270,7 @@ cJoseph60: Diane!
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-24 04:10:14Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-23 21:10:14Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
