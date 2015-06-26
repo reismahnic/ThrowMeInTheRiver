@@ -3264,7 +3264,7 @@ return
                 <FileLastModifiedDate>2015-06-23 07:10:14Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <SourceFileName>C:\dev\throwmeintheriver\throwmeinriver\Assets\Sound\slowjam_CellPhone.wav</SourceFileName>
+                <SourceFileName>Assets\Sound\slowjam_CellPhone.wav</SourceFileName>
                 <ScriptName>aSlowjam_CellPhone</ScriptName>
                 <Index>8</Index>
                 <Type>3</Type>
