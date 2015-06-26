@@ -44,3 +44,4 @@ Temporary Items
 *.lock
 /throwmeinriver/_Debug
 *.bak
+/throwmeinriver/AudioCache
