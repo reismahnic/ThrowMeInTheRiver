@@ -1252,7 +1252,7 @@
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-
+ mouse.Visible = true;
 cDiane55: What do you think it was?
 cJoseph80: At the time I thought it was some kind of greater power, calling down to me.
 cDiane55: And now?
@@ -1303,7 +1303,7 @@ goto-dialog dScene1Dialog2]]></Script>
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-
+ mouse.Visible = true;
 cJoseph80: ...
 cJoseph80: ...
 cJoseph80: I'm probably not leaving this hospital, Diane.
@@ -1394,7 +1394,7 @@ goto-dialog dScene1Dialog3
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-
+ mouse.Visible = true;
 cJoseph80: ...
 cJoseph80: Diane?
 cDiane55: What?
@@ -1463,7 +1463,7 @@ goto-dialog dScene1Dialog4]]></Script>
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-
+ mouse.Visible = true;
 cDiane55: You've never talked about him before. Not like this.
 cJoseph80: I'm at the point where I won't get to later.
 cJoseph80: Nobody deserves to be completely forgotten. Not even him.
@@ -1555,7 +1555,7 @@ goto-dialog dScene1Dialog5]]></Script>
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-
+ mouse.Visible = true;
 cDiane55: Dad, you know when I divorced Eric?
 
 return
@@ -1583,7 +1583,7 @@ cDiane55: You couldn't hate your father, I can't hate mine.
 cJoseph80: I don't understand how it works. But I don't mind.
  }
 
- aSlowjam_CellPhone.Play(eAudioPriorityNormal);
+ aSlowjam_CellPhone.Play(eAudioPriorityHigh);
  
 cDiane55: That's mine, hold on.
 cDiane55: ...
@@ -1633,7 +1633,7 @@ cDiane55: Do you think you could have found understanding?
  
 cJoseph80: I don't know.
 
- aSlowjam_CellPhone.Play(eAudioPriorityNormal);
+ aSlowjam_CellPhone.Play(eAudioPriorityHigh);
 
 cDiane55: That's mine, hold on.
 cDiane55: ...
@@ -1674,7 +1674,7 @@ return]]></Script>
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-
+ mouse.Visible = true;
 
 cDiane35: Dad, I have a question about Mom and you.
 cJoseph60: Uh oh.
@@ -1735,7 +1735,7 @@ goto-dialog dScene2Dialog2
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-
+ mouse.Visible = true;
 cDiane35: What... what happened? Between you two, I mean?
 cJoseph60: She didn't want to be married to a mechanic her whole life.
 cDiane35: Didn't she know what she was getting into when she married you?
@@ -3175,19 +3175,19 @@ cJoseph60: Diane!
             <SubFolders />
             <AudioClips>
               <AudioClip>
-                <SourceFileName>C:\dev\throwmeintheriver\throwmeinriver\Assets\Sound\Hospital_Ambience_NoMonitor.wav</SourceFileName>
+                <SourceFileName>Assets\Sound\Hospital_Ambience_NoMonitor.wav</SourceFileName>
                 <ScriptName>aHospital_Ambience_NoMonitor</ScriptName>
                 <Index>4</Index>
-                <Type>3</Type>
+                <Type>1</Type>
                 <BundlingType>InGameEXE</BundlingType>
                 <FileType>WAV</FileType>
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2012-02-05 05:06:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2012-02-04 13:06:18Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <SourceFileName>C:\dev\throwmeintheriver\throwmeinriver\Assets\Sound\slowjam_CellPhone.wav</SourceFileName>
+                <SourceFileName>Assets\Sound\slowjam_CellPhone.wav</SourceFileName>
                 <ScriptName>aSlowjam_CellPhone</ScriptName>
                 <Index>5</Index>
                 <Type>3</Type>
@@ -3196,10 +3196,10 @@ cJoseph60: Diane!
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2012-02-05 05:06:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2012-02-04 13:06:18Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <SourceFileName>C:\dev\throwmeintheriver\throwmeinriver\Assets\Sound\slowjam_Livingroom_RoomTone.wav</SourceFileName>
+                <SourceFileName>Assets\Sound\slowjam_Livingroom_RoomTone.wav</SourceFileName>
                 <ScriptName>aSlowjam_Livingroom_RoomTone</ScriptName>
                 <Index>6</Index>
                 <Type>3</Type>
@@ -3208,10 +3208,10 @@ cJoseph60: Diane!
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>1999-02-06 13:58:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>1999-02-05 21:58:18Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <SourceFileName>C:\dev\throwmeintheriver\throwmeinriver\Assets\Sound\slowjam_transition_1_v1.wav</SourceFileName>
+                <SourceFileName>Assets\Sound\slowjam_transition_1_v1.wav</SourceFileName>
                 <ScriptName>aSlowjam_transition_1_v1</ScriptName>
                 <Index>7</Index>
                 <Type>3</Type>
@@ -3220,7 +3220,7 @@ cJoseph60: Diane!
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-25 01:10:14Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-24 11:10:14Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
