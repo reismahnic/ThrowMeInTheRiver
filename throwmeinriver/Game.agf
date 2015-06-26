@@ -71,7 +71,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName xml:space="preserve">Throw Me In The River</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>7</AudioIndexer>
+      <AudioIndexer>8</AudioIndexer>
     </Settings>
     <LipSync>
       <Type>None</Type>
@@ -1583,10 +1583,11 @@ cDiane55: You couldn't hate your father, I can't hate mine.
 cJoseph80: I don't understand how it works. But I don't mind.
  }
 
- aSlowjam_CellPhone.Play(eAudioPriorityHigh);
+ aSlowjam_CellPhone.Play();
  
 cDiane55: That's mine, hold on.
 cDiane55: ...
+ aSlowjam_CellPhone.Stop();
 cDiane55: Hey, Emma.
 cDiane55: ...
 cDiane55: What time?
@@ -1633,10 +1634,12 @@ cDiane55: Do you think you could have found understanding?
  
 cJoseph80: I don't know.
 
- aSlowjam_CellPhone.Play(eAudioPriorityHigh);
+ aSlowjam_CellPhone.Play();
+
 
 cDiane55: That's mine, hold on.
 cDiane55: ...
+ aSlowjam_CellPhone.Stop();
 cDiane55: Hey, Emma.
 cDiane55: ...
 cDiane55: What time?
@@ -3181,21 +3184,9 @@ cJoseph60: Diane!
                 <Type>1</Type>
                 <BundlingType>InGameEXE</BundlingType>
                 <FileType>WAV</FileType>
-                <DefaultVolume>-1</DefaultVolume>
+                <DefaultVolume>25</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
-                <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2012-02-04 13:06:18Z</FileLastModifiedDate>
-              </AudioClip>
-              <AudioClip>
-                <SourceFileName>Assets\Sound\slowjam_CellPhone.wav</SourceFileName>
-                <ScriptName>aSlowjam_CellPhone</ScriptName>
-                <Index>5</Index>
-                <Type>3</Type>
-                <BundlingType>InGameEXE</BundlingType>
-                <FileType>WAV</FileType>
-                <DefaultVolume>-1</DefaultVolume>
-                <DefaultPriority>Inherit</DefaultPriority>
-                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultRepeat>True</DefaultRepeat>
                 <FileLastModifiedDate>2012-02-04 13:06:18Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
@@ -3221,6 +3212,18 @@ cJoseph60: Diane!
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
                 <FileLastModifiedDate>2015-06-24 11:10:14Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <SourceFileName>C:\dev\throwmeintheriver\throwmeinriver\Assets\Sound\slowjam_CellPhone.wav</SourceFileName>
+                <ScriptName>aSlowjam_CellPhone</ScriptName>
+                <Index>8</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>WAV</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2015-06-26 01:16:59Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
