@@ -850,6 +850,41 @@
               </GUIButton>
             </Controls>
           </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>240</Height>
+              <Width>320</Width>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Clickable>True</Clickable>
+              <Visibility>NormalButInitiallyOff</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>65535</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>65535</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>3</ID>
+              <Name>titleScreen1</Name>
+            </NormalGUI>
+            <Controls>
+              <GUILabel>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <Text xml:space="preserve">Throw Me In The River</Text>
+                <Height>28</Height>
+                <Locked>False</Locked>
+                <Width>322</Width>
+                <Left>-1</Left>
+                <Top>85</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>Label1</Name>
+              </GUILabel>
+            </Controls>
+          </GUIMain>
         </GUIs>
       </GUIFolder>
     </GUIs>
@@ -3437,8 +3472,8 @@ return
             <SubFolders />
             <AudioClips>
               <AudioClip>
-                <SourceFileName>Assets\Sound\Hospital_Ambience_NoMonitor.wav</SourceFileName>
                 <ScriptName>aHospital_Ambience_NoMonitor</ScriptName>
+                <SourceFileName>Assets\Sound\Hospital_Ambience_NoMonitor.wav</SourceFileName>
                 <Index>4</Index>
                 <Type>1</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -3446,11 +3481,11 @@ return
                 <DefaultVolume>25</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>True</DefaultRepeat>
-                <FileLastModifiedDate>2012-02-01 05:06:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2012-02-01 21:06:18Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <SourceFileName>Assets\Sound\slowjam_Livingroom_RoomTone.wav</SourceFileName>
                 <ScriptName>aSlowjam_Livingroom_RoomTone</ScriptName>
+                <SourceFileName>Assets\Sound\slowjam_Livingroom_RoomTone.wav</SourceFileName>
                 <Index>6</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -3458,11 +3493,11 @@ return
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>1999-02-02 13:58:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>1999-02-03 05:58:18Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <SourceFileName>Assets\Sound\slowjam_transition_1_v1.wav</SourceFileName>
                 <ScriptName>aSlowjam_transition_1_v1</ScriptName>
+                <SourceFileName>Assets\Sound\slowjam_transition_1_v1.wav</SourceFileName>
                 <Index>7</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -3470,11 +3505,11 @@ return
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-21 13:10:14Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-22 03:10:14Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <SourceFileName>Assets\Sound\slowjam_CellPhone.wav</SourceFileName>
                 <ScriptName>aSlowjam_CellPhone</ScriptName>
+                <SourceFileName>Assets\Sound\slowjam_CellPhone.wav</SourceFileName>
                 <Index>8</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -3482,7 +3517,7 @@ return
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-23 17:16:59Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-24 07:16:59Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
@@ -3506,24 +3541,24 @@ return
     </AudioClips>
     <AudioClipTypes>
       <AudioClipType>
-        <TypeID>1</TypeID>
         <Name xml:space="preserve">Ambient Sound</Name>
+        <TypeID>1</TypeID>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <TypeID>2</TypeID>
         <Name>Music</Name>
+        <TypeID>2</TypeID>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>30</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <TypeID>3</TypeID>
         <Name>Sound</Name>
+        <TypeID>3</TypeID>
         <MaxChannels>0</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
