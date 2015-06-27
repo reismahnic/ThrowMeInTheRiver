@@ -645,6 +645,30 @@
             <Description xml:space="preserve">Scene 3, Park</Description>
           </UnloadedRoom>
           <UnloadedRoom>
+            <Number>7</Number>
+            <Description xml:space="preserve">Monologue 3</Description>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>8</Number>
+            <Description xml:space="preserve">Scene 4, Farmhouse Bedroom</Description>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>9</Number>
+            <Description xml:space="preserve">Scene 4, Farmhouse Hallway</Description>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>10</Number>
+            <Description xml:space="preserve">Scene 4, Farmhouse Kitchen</Description>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>11</Number>
+            <Description xml:space="preserve">Scene 4, Farmhouse Living Room</Description>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>12</Number>
+            <Description xml:space="preserve">Scene 5, Field</Description>
+          </UnloadedRoom>
+          <UnloadedRoom>
             <Number>301</Number>
             <Description xml:space="preserve">Main Menu</Description>
           </UnloadedRoom>
@@ -1920,6 +1944,7 @@ return
 
 
 @1
+ DivorceWasCivil = false;
  if (BelievesInGod == true)
  {
 cJoseph60: Well, you know. The church community wasn't thrilled.
@@ -1939,7 +1964,7 @@ cDiane35: ...
 goto-dialog dScene2Dialog2
 
 @2
-
+ DivorceWasCivil = true;
 cJoseph60: We tried our best to keep from hurting each other.
 cJoseph60: We had our spats, but we really did both want out.
 cDiane35: I'm glad you guys didn't keep me in the dark, then.
@@ -2227,11 +2252,49 @@ cCheryl: I care that you're my brother, and that you're in my life still.
 cJoseph40: I haven't seen you enough. I haven't been around.
 cCheryl: Well, we need to fix that. I'll start visiting more. Seeing Diane more.
 cJoseph40: She'd love that.
-cCheryl: So you and Emily aren't...
+cCheryl: So you and Elizabeth aren't...
+cJoseph40: She, umm, moved out.
+
+ if (DivorceWasCivil == true)
+ {
+cJoseph40: We've been trying to do this as carefully as possible. We don't want to upset Diane.
+ }
+ else
+ {
+cJoseph40: To tell you the truth, it's... it's been a mess.
+cJoseph40: I'm doing everything I can to convince Diane that everything will be alright.
+cJoseph40: But Elizabeth won't even talk to me.
+ }
+cCheryl: I'm sorry.
+cJoseph40: How are you and Josh doing?
+cCheryl: We're good.
+cJoseph40: Good. 
+cCheryl: ...
+cCheryl: You... you know, I wasn't... home, when you left.
+cJoseph40: I know.
+cCheryl: Do you remember what he was like?
+cCheryl: Dad, I mean.
 
 return
+@1
+cJoseph40: He didn't yell. He just sat there. But I could tell he was more furious with me than he had ever been before.
+@2
+cJoseph40: He just sat in his chair. Wouldn't move. I've never seen him so depressed.
 ]]></Script>
-            <DialogOptions />
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Text xml:space="preserve">He was furious</Text>
+                <Show>True</Show>
+                <Say>False</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Text xml:space="preserve">He was sad</Text>
+                <Show>True</Show>
+                <Say>False</Say>
+              </DialogOption>
+            </DialogOptions>
           </Dialog>
         </Dialogs>
       </DialogFolder>
@@ -2687,6 +2750,11 @@ return
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
         </GlobalVariable>
+        <GlobalVariable>
+          <Name>DivorceWasCivil</Name>
+          <Type>bool</Type>
+          <DefaultValue>true</DefaultValue>
+        </GlobalVariable>
       </Variables>
     </GlobalVariables>
     <Sprites>
@@ -2892,6 +2960,11 @@ return
         <Sprites>
           <Sprite Slot="0" Width="1" Height="1" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
           <Sprite Slot="1" Width="15" Height="11" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+          <Sprite Slot="131" Width="640" Height="240" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Rooms\Room 5 Field\Feild IN FRONT.png</FileName>
+            </Source>
+          </Sprite>
         </Sprites>
       </SpriteFolder>
     </Sprites>
@@ -3659,7 +3732,7 @@ return
                 <DefaultVolume>25</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>True</DefaultRepeat>
-                <FileLastModifiedDate>2012-01-31 13:06:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2012-01-31 05:06:18Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\slowjam_Livingroom_RoomTone.wav</SourceFileName>
@@ -3671,7 +3744,7 @@ return
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>1999-02-01 21:58:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>1999-02-01 13:58:18Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\slowjam_CellPhone.wav</SourceFileName>
@@ -3683,7 +3756,7 @@ return
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-23 03:16:59Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-22 20:16:59Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\slowjam_transition_1_v1.wav</SourceFileName>
@@ -3695,7 +3768,7 @@ return
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-26 19:24:21Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-26 12:24:21Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
