@@ -3659,11 +3659,11 @@ return
                 <DefaultVolume>25</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>True</DefaultRepeat>
-                <FileLastModifiedDate>2012-01-31 21:06:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2012-01-31 13:06:18Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSlowjam_Livingroom_RoomTone</ScriptName>
                 <SourceFileName>Assets\Sound\slowjam_Livingroom_RoomTone.wav</SourceFileName>
+                <ScriptName>aSlowjam_Livingroom_RoomTone</ScriptName>
                 <Index>6</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -3671,11 +3671,11 @@ return
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>1999-02-02 05:58:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>1999-02-01 21:58:18Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSlowjam_CellPhone</ScriptName>
                 <SourceFileName>Assets\Sound\slowjam_CellPhone.wav</SourceFileName>
+                <ScriptName>aSlowjam_CellPhone</ScriptName>
                 <Index>8</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -3683,11 +3683,11 @@ return
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-23 10:16:59Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-23 03:16:59Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSlowjam_transition_1_v1</ScriptName>
                 <SourceFileName>Assets\Sound\slowjam_transition_1_v1.wav</SourceFileName>
+                <ScriptName>aSlowjam_transition_1_v1</ScriptName>
                 <Index>13</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -3695,7 +3695,7 @@ return
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-27 02:24:21Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-26 19:24:21Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
@@ -3727,16 +3727,16 @@ return
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <Name>Music</Name>
         <TypeID>2</TypeID>
+        <Name>Music</Name>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>30</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <Name>Sound</Name>
         <TypeID>3</TypeID>
+        <Name>Sound</Name>
         <MaxChannels>0</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
