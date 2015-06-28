@@ -71,7 +71,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName xml:space="preserve">Throw Me In The River</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>13</AudioIndexer>
+      <AudioIndexer>23</AudioIndexer>
     </Settings>
     <LipSync>
       <Type>None</Type>
@@ -688,6 +688,10 @@
             <Number>305</Number>
             <Description xml:space="preserve">Scene 4 Card</Description>
           </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>13</Number>
+            <Description IsNull="True" />
+          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
@@ -948,7 +952,7 @@
                 <TextAlignment>TopMiddle</TextAlignment>
                 <TextColor>65535</TextColor>
                 <Font>0</Font>
-                <Text xml:space="preserve">Toronto, 2015</Text>
+                <Text xml:space="preserve">Toronto, Ontario 2015</Text>
                 <Height>82</Height>
                 <Locked>False</Locked>
                 <Width>320</Width>
@@ -957,6 +961,20 @@
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>Label2</Name>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <Text>Winter</Text>
+                <Height>19</Height>
+                <Locked>False</Locked>
+                <Width>76</Width>
+                <Left>122</Left>
+                <Top>89</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>Label3</Name>
               </GUILabel>
             </Controls>
           </GUIMain>
@@ -983,7 +1001,7 @@
                 <TextAlignment>TopMiddle</TextAlignment>
                 <TextColor>65535</TextColor>
                 <Font>0</Font>
-                <Text xml:space="preserve">Toronto, 1995</Text>
+                <Text xml:space="preserve">Toronto, Ontario 1995</Text>
                 <Height>82</Height>
                 <Locked>False</Locked>
                 <Width>320</Width>
@@ -992,6 +1010,20 @@
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>Label22</Name>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <Text>Winter</Text>
+                <Height>18</Height>
+                <Locked>False</Locked>
+                <Width>61</Width>
+                <Left>125</Left>
+                <Top>90</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>Label4</Name>
               </GUILabel>
             </Controls>
           </GUIMain>
@@ -1018,7 +1050,7 @@
                 <TextAlignment>TopMiddle</TextAlignment>
                 <TextColor>65535</TextColor>
                 <Font>0</Font>
-                <Text xml:space="preserve">Toronto, 1975</Text>
+                <Text xml:space="preserve">Toronto, Ontario 1975</Text>
                 <Height>82</Height>
                 <Locked>False</Locked>
                 <Width>320</Width>
@@ -1027,6 +1059,20 @@
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>Label222</Name>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <Text>Summer</Text>
+                <Height>24</Height>
+                <Locked>False</Locked>
+                <Width>52</Width>
+                <Left>134</Left>
+                <Top>88</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>Label5</Name>
               </GUILabel>
             </Controls>
           </GUIMain>
@@ -1053,7 +1099,7 @@
                 <TextAlignment>TopMiddle</TextAlignment>
                 <TextColor>65535</TextColor>
                 <Font>0</Font>
-                <Text xml:space="preserve">Longview, 1955</Text>
+                <Text xml:space="preserve">Longview, Alberta 1955</Text>
                 <Height>82</Height>
                 <Locked>False</Locked>
                 <Width>320</Width>
@@ -1062,6 +1108,20 @@
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>Label2222</Name>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <Text>Summer</Text>
+                <Height>26</Height>
+                <Locked>False</Locked>
+                <Width>74</Width>
+                <Left>121</Left>
+                <Top>91</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>Label6</Name>
               </GUILabel>
             </Controls>
           </GUIMain>
@@ -1289,7 +1349,7 @@
                 <ScriptName>cJoseph60</ScriptName>
                 <RealName>Joseph</RealName>
                 <NormalView>6</NormalView>
-                <SpeechView>3</SpeechView>
+                <SpeechView>8</SpeechView>
                 <IdleView>0</IdleView>
                 <ThinkingView>0</ThinkingView>
                 <BlinkingView>0</BlinkingView>
@@ -1329,7 +1389,7 @@
                 <ScriptName>cJoseph40</ScriptName>
                 <RealName>Joseph</RealName>
                 <NormalView>6</NormalView>
-                <SpeechView>3</SpeechView>
+                <SpeechView>9</SpeechView>
                 <IdleView>0</IdleView>
                 <ThinkingView>0</ThinkingView>
                 <BlinkingView>0</BlinkingView>
@@ -1368,23 +1428,23 @@
                 <ID>6</ID>
                 <ScriptName>cJoseph20</ScriptName>
                 <RealName>Joseph</RealName>
-                <NormalView>1</NormalView>
-                <SpeechView>0</SpeechView>
+                <NormalView>6</NormalView>
+                <SpeechView>10</SpeechView>
                 <IdleView>0</IdleView>
                 <ThinkingView>0</ThinkingView>
                 <BlinkingView>0</BlinkingView>
-                <StartingRoom>-1</StartingRoom>
+                <StartingRoom>7</StartingRoom>
                 <StartX>160</StartX>
                 <StartY>120</StartY>
                 <UniformMovementSpeed>True</UniformMovementSpeed>
-                <MovementSpeed>3</MovementSpeed>
+                <MovementSpeed>7</MovementSpeed>
                 <MovementSpeedX>0</MovementSpeedX>
                 <MovementSpeedY>0</MovementSpeedY>
                 <AnimationDelay>4</AnimationDelay>
                 <SpeechAnimationDelay>5</SpeechAnimationDelay>
                 <SpeechColor>12</SpeechColor>
                 <Solid>True</Solid>
-                <Clickable>True</Clickable>
+                <Clickable>False</Clickable>
                 <UseRoomAreaScaling>True</UseRoomAreaScaling>
                 <UseRoomAreaLighting>True</UseRoomAreaLighting>
                 <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -1408,23 +1468,23 @@
                 <ID>7</ID>
                 <ScriptName>cJoseph8</ScriptName>
                 <RealName>Joseph</RealName>
-                <NormalView>1</NormalView>
-                <SpeechView>0</SpeechView>
+                <NormalView>6</NormalView>
+                <SpeechView>10</SpeechView>
                 <IdleView>0</IdleView>
                 <ThinkingView>0</ThinkingView>
                 <BlinkingView>0</BlinkingView>
-                <StartingRoom>-1</StartingRoom>
-                <StartX>160</StartX>
-                <StartY>120</StartY>
+                <StartingRoom>12</StartingRoom>
+                <StartX>10</StartX>
+                <StartY>234</StartY>
                 <UniformMovementSpeed>True</UniformMovementSpeed>
-                <MovementSpeed>3</MovementSpeed>
+                <MovementSpeed>7</MovementSpeed>
                 <MovementSpeedX>0</MovementSpeedX>
                 <MovementSpeedY>0</MovementSpeedY>
                 <AnimationDelay>4</AnimationDelay>
                 <SpeechAnimationDelay>5</SpeechAnimationDelay>
                 <SpeechColor>12</SpeechColor>
                 <Solid>True</Solid>
-                <Clickable>True</Clickable>
+                <Clickable>False</Clickable>
                 <UseRoomAreaScaling>True</UseRoomAreaScaling>
                 <UseRoomAreaLighting>True</UseRoomAreaLighting>
                 <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -1454,7 +1514,7 @@
                 <ScriptName>cDiane55</ScriptName>
                 <RealName>Diane</RealName>
                 <NormalView>1</NormalView>
-                <SpeechView>5</SpeechView>
+                <SpeechView>11</SpeechView>
                 <IdleView>0</IdleView>
                 <ThinkingView>0</ThinkingView>
                 <BlinkingView>0</BlinkingView>
@@ -1494,7 +1554,7 @@
                 <ScriptName>cDiane35</ScriptName>
                 <RealName>Diane</RealName>
                 <NormalView>1</NormalView>
-                <SpeechView>5</SpeechView>
+                <SpeechView>12</SpeechView>
                 <IdleView>0</IdleView>
                 <ThinkingView>0</ThinkingView>
                 <BlinkingView>0</BlinkingView>
@@ -1538,13 +1598,53 @@
             <ScriptName>cCheryl</ScriptName>
             <RealName>Cheryl</RealName>
             <NormalView>1</NormalView>
-            <SpeechView>5</SpeechView>
+            <SpeechView>13</SpeechView>
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
             <StartingRoom>6</StartingRoom>
             <StartX>502</StartX>
             <StartY>222</StartY>
+            <UniformMovementSpeed>True</UniformMovementSpeed>
+            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeedX>0</MovementSpeedX>
+            <MovementSpeedY>0</MovementSpeedY>
+            <AnimationDelay>4</AnimationDelay>
+            <SpeechAnimationDelay>5</SpeechAnimationDelay>
+            <SpeechColor>12</SpeechColor>
+            <Solid>True</Solid>
+            <Clickable>True</Clickable>
+            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <UseRoomAreaLighting>True</UseRoomAreaLighting>
+            <TurnBeforeWalking>True</TurnBeforeWalking>
+            <DiagonalLoops>True</DiagonalLoops>
+            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+              <Event Index="5" />
+              <Event Index="6" />
+              <Event Index="7" />
+            </Interactions>
+          </Character>
+          <Character>
+            <ID>8</ID>
+            <ScriptName>cDad</ScriptName>
+            <RealName>Dad</RealName>
+            <NormalView>1</NormalView>
+            <SpeechView>14</SpeechView>
+            <IdleView>0</IdleView>
+            <ThinkingView>0</ThinkingView>
+            <BlinkingView>0</BlinkingView>
+            <StartingRoom>11</StartingRoom>
+            <StartX>180</StartX>
+            <StartY>218</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -1657,7 +1757,7 @@ cJoseph80: I thought, please, God, come to me, speak to me like you spoke to me 
  }
  else
  {
-cJoseph80: I didn't know what to do. I was to scared to survive, and not religious enough to pray.
+cJoseph80: I didn't know what to do. I was too scared to survive, and not religious enough to pray.
  }
 cJoseph80: ...
 cJoseph80: ...
@@ -2088,7 +2188,7 @@ return
 
 @1
  WentToCollege=true;
-cJoseph60: When I left home, I started going to college!
+cJoseph60: When I left home, I started going to college. Wanted to be a teacher.
 cJoseph60: That's when your Mother and I met.
 cJoseph60: Then the money ran out, and I started working on cars.
 cJoseph60: Pretty soon, it just made more sense to keep doing that.
@@ -2134,15 +2234,13 @@ cJoseph60: What brought this on?
 cJoseph60: ...
 cJoseph60: ...
 
-
-
-//SFX Tea whistle
-
-cJoseph60: I'll get that.
+cJoseph60: Tea should be ready.
  cJoseph60.Walk(164,150,eBlock);
-//SFX ends
+ aTeakKettle.Play();
+ 
 cDiane35: Dad?
 cJoseph60: What's that?
+ aTeakKettle.Stop();
 cDiane35: Come back in, I have to tell you something.
 cJoseph60: One second.
  cJoseph60.Walk(214,170,eBlock);
@@ -2357,10 +2455,15 @@ cCheryl: Dad, I mean.
 
 return
 @1
+ DadWasMad = true;
 cJoseph40: He didn't yell. He just sat there. But I could tell he was more furious with me than he had ever been before.
+ player.ChangeRoom(7);
+return
 @2
+ DadWasMad = false;
 cJoseph40: He just sat in his chair. Wouldn't move. I've never seen him so depressed.
-]]></Script>
+ player.ChangeRoom(7);
+return]]></Script>
             <DialogOptions>
               <DialogOption>
                 <ID>1</ID>
@@ -2375,6 +2478,79 @@ cJoseph40: He just sat in his chair. Wouldn't move. I've never seen him so depre
                 <Say>False</Say>
               </DialogOption>
             </DialogOptions>
+          </Dialog>
+          <Dialog>
+            <ID>11</ID>
+            <Name>dScene4Dialog1</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+
+cJoseph20: I'm leaving, Father.
+cDad: ...
+cDad: ...
+
+ if (WentToCollege == true)
+ {
+cJoseph20: I'm going to college.
+ }
+ else
+ {
+cJoseph20: I'm going with Jack to start my own business.   
+ }
+
+cDad: ...
+cDad: ...
+
+ if (DadWasMad == true)
+ {
+cDad: Get your stuff. And get the hell out of my house.   
+ }
+ else
+ {
+cDad: Why did it turn out this way?...
+cDad: I'm sorry, I'm sorry...
+cJoseph20: You can't take yesterday back.
+cDad: I know.
+ }
+ 
+ cJoseph20.Walk(46, 184, eBlock);
+cJoseph20: I need to get my things.
+cJoseph20: My clothes are in my drawer upstairs.
+cJoseph20: My wallet is in the kitchen. 
+ DadFirstDialogOver = true;
+stop
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>12</ID>
+            <Name>dScene4Dialog2</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+
+ if (HatedFather == true)
+ {
+cJoseph20: I hate you.
+cDad: Leave.
+ }
+ else
+ {
+cJoseph20: I wish things were different.
+cDad: I do too.
+cDad: Now get out.
+ }
+ 
+cJoseph20: Fine.
+
+ cJoseph20.Walk(46, 184, eBlock);
+cJoseph20: I need to get my things.
+cJoseph20: My clothes are in my drawer upstairs.
+cJoseph20: My wallet is in the kitchen.
+stop
+]]></Script>
+            <DialogOptions />
           </Dialog>
         </Dialogs>
       </DialogFolder>
@@ -2835,6 +3011,26 @@ cJoseph40: He just sat in his chair. Wouldn't move. I've never seen him so depre
           <Type>bool</Type>
           <DefaultValue>true</DefaultValue>
         </GlobalVariable>
+        <GlobalVariable>
+          <Name>DadWasMad</Name>
+          <Type>bool</Type>
+          <DefaultValue>true</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>DadFirstDialogOver</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>PickedUpClothes</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>PickedUpWallet</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
       </Variables>
     </GlobalVariables>
     <Sprites>
@@ -2886,6 +3082,21 @@ cJoseph40: He just sat in his chair. Wouldn't move. I've never seen him so depre
                       <FileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Characters\Joseph\joseph_portrait_scene1_60x80revision.png</FileName>
                     </Source>
                   </Sprite>
+                  <Sprite Slot="132" Width="60" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Characters\Joseph\joseph_portrait_scene2_60x80.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="133" Width="60" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Characters\Joseph\joseph_portrait_scene3_60x80.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="134" Width="60" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Characters\Joseph\joseph_portrait_scene4_60x80.png</FileName>
+                    </Source>
+                  </Sprite>
                 </Sprites>
               </SpriteFolder>
               <SpriteFolder Name="Joseph_Old_Walk">
@@ -2929,14 +3140,41 @@ cJoseph40: He just sat in his chair. Wouldn't move. I've never seen him so depre
               </SpriteFolder>
               <SpriteFolder Name="Joseph_Scene3">
                 <SubFolders />
+                <Sprites />
+              </SpriteFolder>
+              <SpriteFolder Name="Diane">
+                <SubFolders />
                 <Sprites>
-                  <Sprite Slot="124" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="125" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="126" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="127" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="128" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="129" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="130" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="136" Width="60" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Characters\Diane\diane_portrait_scene1_60x80.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="124" Width="60" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Characters\Diane\diane_portrait_scene2_60x80.png</FileName>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
+              <SpriteFolder Name="Cheryl">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="125" Width="60" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Characters\Claire\claire_portrait_scene3_60x80.png</FileName>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
+              <SpriteFolder Name="Father">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="127" Width="60" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Characters\Dad\joesfather_portrait_scene5_60x80.png</FileName>
+                    </Source>
+                  </Sprite>
                 </Sprites>
               </SpriteFolder>
             </SubFolders>
@@ -3043,6 +3281,16 @@ cJoseph40: He just sat in his chair. Wouldn't move. I've never seen him so depre
           <Sprite Slot="131" Width="640" Height="240" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
             <Source>
               <FileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Rooms\Room 5 Field\Feild IN FRONT2.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="135" Width="11" Height="8" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Rooms\Room 4 House\Wallet.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="126" Width="10" Height="10" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Rooms\Room 5 Field\orbpink.png</FileName>
             </Source>
           </Sprite>
         </Sprites>
@@ -3668,6 +3916,87 @@ cJoseph40: He just sat in his chair. Wouldn't move. I've never seen him so depre
           <View>
             <ID>7</ID>
             <Name>Joseph30Walk</Name>
+            <Loops />
+          </View>
+          <View>
+            <ID>8</ID>
+            <Name>Joseph60Talk</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>132</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>9</ID>
+            <Name>Joseph40Talk</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>133</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>10</ID>
+            <Name>Joseph20Talk</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>134</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>11</ID>
+            <Name>Diane55Talk</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>136</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>12</ID>
+            <Name>Diane35Talk</Name>
             <Loops>
               <Loop>
                 <ID>0</ID>
@@ -3680,44 +4009,40 @@ cJoseph40: He just sat in his chair. Wouldn't move. I've never seen him so depre
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>13</ID>
+            <Name>CherylTalk</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
                   <ViewFrame>
-                    <ID>1</ID>
+                    <ID>0</ID>
                     <Image>125</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>14</ID>
+            <Name>DadTalk</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
                   <ViewFrame>
-                    <ID>2</ID>
-                    <Image>126</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>3</ID>
+                    <ID>0</ID>
                     <Image>127</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>4</ID>
-                    <Image>128</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>5</ID>
-                    <Image>129</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>6</ID>
-                    <Image>130</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -3790,7 +4115,80 @@ cJoseph40: He just sat in his chair. Wouldn't move. I've never seen him so depre
         <SubFolders>
           <AudioClipFolder Name="Music">
             <SubFolders />
-            <AudioClips />
+            <AudioClips>
+              <AudioClip>
+                <SourceFileName>Assets\Sound\slowjam_transition_1_v1.wav</SourceFileName>
+                <ScriptName>aSlowjam_transition_1_v1</ScriptName>
+                <Index>13</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>WAV</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2015-06-24 18:24:21Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <SourceFileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Sound\Monologue_1.wav</SourceFileName>
+                <ScriptName>aMonologue_1</ScriptName>
+                <Index>19</Index>
+                <Type>2</Type>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <FileType>WAV</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2015-06-27 21:43:31Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <SourceFileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Sound\Monologue_2.wav</SourceFileName>
+                <ScriptName>aMonologue_2</ScriptName>
+                <Index>20</Index>
+                <Type>2</Type>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <FileType>WAV</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2015-06-27 21:43:47Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <SourceFileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Sound\Monologue_3.wav</SourceFileName>
+                <ScriptName>aMonologue_3</ScriptName>
+                <Index>21</Index>
+                <Type>2</Type>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <FileType>WAV</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2015-06-27 21:44:46Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <SourceFileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Sound\scene4_loop_2.wav</SourceFileName>
+                <ScriptName>aScene4_loop_2</ScriptName>
+                <Index>22</Index>
+                <Type>2</Type>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <FileType>WAV</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2015-06-28 01:44:08Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <SourceFileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Sound\ThrowMeInTheRiver.mp3</SourceFileName>
+                <ScriptName>aThrowMeInTheRiver</ScriptName>
+                <Index>23</Index>
+                <Type>2</Type>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2015-06-27 05:30:15Z</FileLastModifiedDate>
+              </AudioClip>
+            </AudioClips>
             <AudioClipFolder>
               <DefaultVolume>100</DefaultVolume>
               <DefaultPriority>Inherit</DefaultPriority>
@@ -3812,7 +4210,7 @@ cJoseph40: He just sat in his chair. Wouldn't move. I've never seen him so depre
                 <DefaultVolume>25</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>True</DefaultRepeat>
-                <FileLastModifiedDate>2012-01-30 13:06:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2012-01-29 05:06:18Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\slowjam_Livingroom_RoomTone.wav</SourceFileName>
@@ -3824,7 +4222,7 @@ cJoseph40: He just sat in his chair. Wouldn't move. I've never seen him so depre
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>1999-01-31 21:58:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>1999-01-30 13:58:18Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\slowjam_CellPhone.wav</SourceFileName>
@@ -3836,19 +4234,67 @@ cJoseph40: He just sat in his chair. Wouldn't move. I've never seen him so depre
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-22 06:16:59Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-21 02:16:59Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <SourceFileName>Assets\Sound\slowjam_transition_1_v1.wav</SourceFileName>
-                <ScriptName>aSlowjam_transition_1_v1</ScriptName>
-                <Index>13</Index>
+                <SourceFileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Sound\Doorslam.wav</SourceFileName>
+                <ScriptName>aDoorslam</ScriptName>
+                <Index>14</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
                 <FileType>WAV</FileType>
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-25 22:24:21Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-27 01:55:53Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <SourceFileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Sound\Orb_2.wav</SourceFileName>
+                <ScriptName>aOrb_2</ScriptName>
+                <Index>15</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>WAV</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2015-06-27 22:05:36Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <SourceFileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Sound\PioneerSquare_ambience.wav</SourceFileName>
+                <ScriptName>aPioneerSquare_ambience</ScriptName>
+                <Index>16</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>WAV</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2015-06-27 00:42:54Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <SourceFileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Sound\teakKettle.wav</SourceFileName>
+                <ScriptName>aTeakKettle</ScriptName>
+                <Index>17</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>WAV</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2015-06-27 01:55:50Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <SourceFileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Sound\Wind_loop.wav</SourceFileName>
+                <ScriptName>aWind_loop</ScriptName>
+                <Index>18</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>WAV</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>True</DefaultRepeat>
+                <FileLastModifiedDate>2015-06-27 21:45:03Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
