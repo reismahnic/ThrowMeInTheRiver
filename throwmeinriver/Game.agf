@@ -692,6 +692,10 @@
             <Number>13</Number>
             <Description IsNull="True" />
           </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>306</Number>
+            <Description xml:space="preserve">Scene 5 Card</Description>
+          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
@@ -1122,6 +1126,55 @@
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
                 <Name>Label6</Name>
+              </GUILabel>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>240</Height>
+              <Width>320</Width>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Clickable>True</Clickable>
+              <Visibility>NormalButInitiallyOff</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>0</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>8</ID>
+              <Name>gScene_5_loc</Name>
+            </NormalGUI>
+            <Controls>
+              <GUILabel>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <Text xml:space="preserve">Longview, Alberta, 1943</Text>
+                <Height>82</Height>
+                <Locked>False</Locked>
+                <Width>320</Width>
+                <Left>0</Left>
+                <Top>68</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>Label22222</Name>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <Text>Summer</Text>
+                <Height>28</Height>
+                <Locked>False</Locked>
+                <Width>81</Width>
+                <Left>118</Left>
+                <Top>92</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>Label7</Name>
               </GUILabel>
             </Controls>
           </GUIMain>
@@ -3079,22 +3132,22 @@ stop
                 <Sprites>
                   <Sprite Slot="31" Width="60" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Characters\Joseph\joseph_portrait_scene1_60x80revision.png</FileName>
+                      <FileName>Assets\Characters\Joseph\joseph_portrait_scene1_60x80revision.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="132" Width="60" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Characters\Joseph\joseph_portrait_scene2_60x80.png</FileName>
+                      <FileName>Assets\Characters\Joseph\joseph_portrait_scene2_60x80.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="133" Width="60" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Characters\Joseph\joseph_portrait_scene3_60x80.png</FileName>
+                      <FileName>Assets\Characters\Joseph\joseph_portrait_scene3_60x80.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="134" Width="60" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Characters\Joseph\joseph_portrait_scene4_60x80.png</FileName>
+                      <FileName>Assets\Characters\Joseph\joseph_portrait_scene4_60x80.png</FileName>
                     </Source>
                   </Sprite>
                 </Sprites>
@@ -3147,12 +3200,12 @@ stop
                 <Sprites>
                   <Sprite Slot="136" Width="60" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Characters\Diane\diane_portrait_scene1_60x80.png</FileName>
+                      <FileName>Assets\Characters\Diane\diane_portrait_scene1_60x80.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="124" Width="60" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Characters\Diane\diane_portrait_scene2_60x80.png</FileName>
+                      <FileName>Assets\Characters\Diane\diane_portrait_scene2_60x80.png</FileName>
                     </Source>
                   </Sprite>
                 </Sprites>
@@ -3162,7 +3215,7 @@ stop
                 <Sprites>
                   <Sprite Slot="125" Width="60" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Characters\Claire\claire_portrait_scene3_60x80.png</FileName>
+                      <FileName>Assets\Characters\Claire\claire_portrait_scene3_60x80.png</FileName>
                     </Source>
                   </Sprite>
                 </Sprites>
@@ -3172,7 +3225,7 @@ stop
                 <Sprites>
                   <Sprite Slot="127" Width="60" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Characters\Dad\joesfather_portrait_scene5_60x80.png</FileName>
+                      <FileName>Assets\Characters\Dad\joesfather_portrait_scene5_60x80.png</FileName>
                     </Source>
                   </Sprite>
                 </Sprites>
@@ -3274,23 +3327,27 @@ stop
             <SubFolders />
             <Sprites />
           </SpriteFolder>
+          <SpriteFolder Name="gScene_1_locImport">
+            <SubFolders />
+            <Sprites />
+          </SpriteFolder>
         </SubFolders>
         <Sprites>
           <Sprite Slot="0" Width="1" Height="1" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
           <Sprite Slot="1" Width="15" Height="11" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
           <Sprite Slot="131" Width="640" Height="240" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
             <Source>
-              <FileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Rooms\Room 5 Field\Feild IN FRONT2.png</FileName>
+              <FileName>Assets\Rooms\Room 5 Field\Feild IN FRONT2.png</FileName>
             </Source>
           </Sprite>
           <Sprite Slot="135" Width="11" Height="8" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
             <Source>
-              <FileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Rooms\Room 4 House\Wallet.png</FileName>
+              <FileName>Assets\Rooms\Room 4 House\Wallet.png</FileName>
             </Source>
           </Sprite>
           <Sprite Slot="126" Width="10" Height="10" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
             <Source>
-              <FileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Rooms\Room 5 Field\orbpink.png</FileName>
+              <FileName>Assets\Rooms\Room 5 Field\orbpink.png</FileName>
             </Source>
           </Sprite>
         </Sprites>
@@ -4129,7 +4186,7 @@ stop
                 <FileLastModifiedDate>2015-06-24 04:24:21Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <SourceFileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Sound\Monologue_1.wav</SourceFileName>
+                <SourceFileName>Assets\Sound\Monologue_1.wav</SourceFileName>
                 <ScriptName>aMonologue_1</ScriptName>
                 <Index>19</Index>
                 <Type>2</Type>
@@ -4141,7 +4198,7 @@ stop
                 <FileLastModifiedDate>2015-06-27 07:43:31Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <SourceFileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Sound\Monologue_2.wav</SourceFileName>
+                <SourceFileName>Assets\Sound\Monologue_2.wav</SourceFileName>
                 <ScriptName>aMonologue_2</ScriptName>
                 <Index>20</Index>
                 <Type>2</Type>
@@ -4153,7 +4210,7 @@ stop
                 <FileLastModifiedDate>2015-06-27 07:43:47Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <SourceFileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Sound\Monologue_3.wav</SourceFileName>
+                <SourceFileName>Assets\Sound\Monologue_3.wav</SourceFileName>
                 <ScriptName>aMonologue_3</ScriptName>
                 <Index>21</Index>
                 <Type>2</Type>
@@ -4165,7 +4222,7 @@ stop
                 <FileLastModifiedDate>2015-06-27 07:44:46Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <SourceFileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Sound\scene4_loop_2.wav</SourceFileName>
+                <SourceFileName>Assets\Sound\scene4_loop_2.wav</SourceFileName>
                 <ScriptName>aScene4_loop_2</ScriptName>
                 <Index>22</Index>
                 <Type>2</Type>
@@ -4177,7 +4234,7 @@ stop
                 <FileLastModifiedDate>2015-06-27 11:44:08Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <SourceFileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Sound\ThrowMeInTheRiver.mp3</SourceFileName>
+                <SourceFileName>Assets\Sound\ThrowMeInTheRiver.mp3</SourceFileName>
                 <ScriptName>aThrowMeInTheRiver</ScriptName>
                 <Index>23</Index>
                 <Type>2</Type>
@@ -4237,7 +4294,7 @@ stop
                 <FileLastModifiedDate>2015-06-20 12:16:59Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <SourceFileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Sound\Doorslam.wav</SourceFileName>
+                <SourceFileName>Assets\Sound\Doorslam.wav</SourceFileName>
                 <ScriptName>aDoorslam</ScriptName>
                 <Index>14</Index>
                 <Type>3</Type>
@@ -4249,7 +4306,7 @@ stop
                 <FileLastModifiedDate>2015-06-26 11:55:53Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <SourceFileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Sound\Orb_2.wav</SourceFileName>
+                <SourceFileName>Assets\Sound\Orb_2.wav</SourceFileName>
                 <ScriptName>aOrb_2</ScriptName>
                 <Index>15</Index>
                 <Type>3</Type>
@@ -4261,7 +4318,7 @@ stop
                 <FileLastModifiedDate>2015-06-27 08:05:36Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <SourceFileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Sound\PioneerSquare_ambience.wav</SourceFileName>
+                <SourceFileName>Assets\Sound\PioneerSquare_ambience.wav</SourceFileName>
                 <ScriptName>aPioneerSquare_ambience</ScriptName>
                 <Index>16</Index>
                 <Type>3</Type>
@@ -4273,7 +4330,7 @@ stop
                 <FileLastModifiedDate>2015-06-26 10:42:54Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <SourceFileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Sound\teakKettle.wav</SourceFileName>
+                <SourceFileName>Assets\Sound\teakKettle.wav</SourceFileName>
                 <ScriptName>aTeakKettle</ScriptName>
                 <Index>17</Index>
                 <Type>3</Type>
@@ -4285,7 +4342,7 @@ stop
                 <FileLastModifiedDate>2015-06-26 11:55:50Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <SourceFileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Sound\Wind_loop.wav</SourceFileName>
+                <SourceFileName>Assets\Sound\Wind_loop.wav</SourceFileName>
                 <ScriptName>aWind_loop</ScriptName>
                 <Index>18</Index>
                 <Type>3</Type>
