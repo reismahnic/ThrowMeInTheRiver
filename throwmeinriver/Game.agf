@@ -71,7 +71,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName xml:space="preserve">Throw Me In The River</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>23</AudioIndexer>
+      <AudioIndexer>26</AudioIndexer>
     </Settings>
     <LipSync>
       <Type>None</Type>
@@ -3084,6 +3084,11 @@ stop
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
         </GlobalVariable>
+        <GlobalVariable>
+          <Name>WindLoop</Name>
+          <Type>AudioChannel*</Type>
+          <DefaultValue />
+        </GlobalVariable>
       </Variables>
     </GlobalVariables>
     <Sprites>
@@ -4344,14 +4349,26 @@ stop
               <AudioClip>
                 <SourceFileName>Assets\Sound\Wind_loop.wav</SourceFileName>
                 <ScriptName>aWind_loop</ScriptName>
-                <Index>18</Index>
+                <Index>24</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
                 <FileType>WAV</FileType>
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>True</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-27 00:45:03Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-28 20:47:35Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <SourceFileName>Assets\Sound\Hospital_Ambience_noresp.wav</SourceFileName>
+                <ScriptName>aHospital_Ambience_noresp</ScriptName>
+                <Index>26</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>WAV</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>True</DefaultRepeat>
+                <FileLastModifiedDate>2015-06-28 21:04:46Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
