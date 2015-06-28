@@ -696,6 +696,10 @@
             <Number>306</Number>
             <Description xml:space="preserve">Scene 5 Card</Description>
           </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>307</Number>
+            <Description>Credits</Description>
+          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
@@ -1175,6 +1179,111 @@
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
                 <Name>Label7</Name>
+              </GUILabel>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>200</Height>
+              <Width>300</Width>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Clickable>True</Clickable>
+              <Visibility>NormalButInitiallyOff</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>0</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>9</ID>
+              <Name>gCredits</Name>
+            </NormalGUI>
+            <Controls>
+              <GUILabel>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <Text xml:space="preserve">Reis Mahnic - Writing, Design, Programming</Text>
+                <Height>20</Height>
+                <Locked>False</Locked>
+                <Width>202</Width>
+                <Left>53</Left>
+                <Top>22</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>Label8</Name>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <Text xml:space="preserve">Megan Stevens - Art</Text>
+                <Height>18</Height>
+                <Locked>False</Locked>
+                <Width>100</Width>
+                <Left>101</Left>
+                <Top>47</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>Label9</Name>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <Text xml:space="preserve">Bryan Minus - Music and Sound Effects</Text>
+                <Height>19</Height>
+                <Locked>False</Locked>
+                <Width>208</Width>
+                <Left>62</Left>
+                <Top>73</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
+                <Name>Label10</Name>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <Text xml:space="preserve">Andy Brenneke - Programming</Text>
+                <Height>17</Height>
+                <Locked>False</Locked>
+                <Width>167</Width>
+                <Left>81</Left>
+                <Top>100</Top>
+                <ZOrder>3</ZOrder>
+                <ID>3</ID>
+                <Name>Label11</Name>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <Text xml:space="preserve">Thomas Newlands - Art</Text>
+                <Height>16</Height>
+                <Locked>False</Locked>
+                <Width>117</Width>
+                <Left>95</Left>
+                <Top>130</Top>
+                <ZOrder>4</ZOrder>
+                <ID>4</ID>
+                <Name>Label12</Name>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <Text xml:space="preserve">Nathan Ogden - Art</Text>
+                <Height>16</Height>
+                <Locked>False</Locked>
+                <Width>133</Width>
+                <Left>103</Left>
+                <Top>160</Top>
+                <ZOrder>5</ZOrder>
+                <ID>5</ID>
+                <Name>Label13</Name>
               </GUILabel>
             </Controls>
           </GUIMain>
@@ -3146,6 +3255,11 @@ stop
           <Type>AudioChannel*</Type>
           <DefaultValue />
         </GlobalVariable>
+        <GlobalVariable>
+          <Name>MusicThrowMeInTheRiver</Name>
+          <Type>AudioChannel*</Type>
+          <DefaultValue />
+        </GlobalVariable>
       </Variables>
     </GlobalVariables>
     <Sprites>
@@ -4734,7 +4848,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-25 06:43:47Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-28 19:52:32Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\Monologue_3.wav</SourceFileName>
@@ -4746,7 +4860,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-25 06:44:46Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-28 19:52:32Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\scene4_loop_2.wav</SourceFileName>
@@ -4758,7 +4872,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-25 10:44:08Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-28 19:52:33Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\ThrowMeInTheRiver.mp3</SourceFileName>
@@ -4767,10 +4881,10 @@ stop
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
                 <FileType>MP3</FileType>
-                <DefaultVolume>-1</DefaultVolume>
+                <DefaultVolume>50</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-24 14:30:15Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-28 19:52:33Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
