@@ -1518,7 +1518,7 @@
                 <IdleView>0</IdleView>
                 <ThinkingView>0</ThinkingView>
                 <BlinkingView>0</BlinkingView>
-                <StartingRoom>1</StartingRoom>
+                <StartingRoom>2</StartingRoom>
                 <StartX>156</StartX>
                 <StartY>405</StartY>
                 <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -4126,7 +4126,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-24 18:24:21Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-24 04:24:21Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Sound\Monologue_1.wav</SourceFileName>
@@ -4138,7 +4138,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-27 21:43:31Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-27 07:43:31Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Sound\Monologue_2.wav</SourceFileName>
@@ -4150,7 +4150,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-27 21:43:47Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-27 07:43:47Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Sound\Monologue_3.wav</SourceFileName>
@@ -4162,7 +4162,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-27 21:44:46Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-27 07:44:46Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Sound\scene4_loop_2.wav</SourceFileName>
@@ -4174,7 +4174,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-28 01:44:08Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-27 11:44:08Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Sound\ThrowMeInTheRiver.mp3</SourceFileName>
@@ -4186,7 +4186,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-27 05:30:15Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-26 15:30:15Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
@@ -4210,7 +4210,7 @@ stop
                 <DefaultVolume>25</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>True</DefaultRepeat>
-                <FileLastModifiedDate>2012-01-29 05:06:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2012-01-28 13:06:18Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\slowjam_Livingroom_RoomTone.wav</SourceFileName>
@@ -4222,7 +4222,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>1999-01-30 13:58:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>1999-01-29 21:58:18Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\slowjam_CellPhone.wav</SourceFileName>
@@ -4234,7 +4234,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-21 02:16:59Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-20 12:16:59Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Sound\Doorslam.wav</SourceFileName>
@@ -4246,7 +4246,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-27 01:55:53Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-26 11:55:53Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Sound\Orb_2.wav</SourceFileName>
@@ -4258,7 +4258,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-27 22:05:36Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-27 08:05:36Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Sound\PioneerSquare_ambience.wav</SourceFileName>
@@ -4270,7 +4270,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-27 00:42:54Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-26 10:42:54Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Sound\teakKettle.wav</SourceFileName>
@@ -4282,7 +4282,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-27 01:55:50Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-26 11:55:50Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>C:\Users\Reis\Documents\GitHub\ThrowMeInTheRiver\throwmeinriver\Assets\Sound\Wind_loop.wav</SourceFileName>
@@ -4294,7 +4294,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>True</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-27 21:45:03Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-27 07:45:03Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
