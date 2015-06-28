@@ -4183,7 +4183,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-24 04:24:21Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-23 21:24:21Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\Monologue_1.wav</SourceFileName>
@@ -4195,7 +4195,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-27 07:43:31Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-27 00:43:31Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\Monologue_2.wav</SourceFileName>
@@ -4207,7 +4207,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-27 07:43:47Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-27 00:43:47Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\Monologue_3.wav</SourceFileName>
@@ -4219,7 +4219,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-27 07:44:46Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-27 00:44:46Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\scene4_loop_2.wav</SourceFileName>
@@ -4231,7 +4231,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-27 11:44:08Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-27 04:44:08Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\ThrowMeInTheRiver.mp3</SourceFileName>
@@ -4243,7 +4243,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-26 15:30:15Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-26 08:30:15Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
@@ -4267,7 +4267,7 @@ stop
                 <DefaultVolume>25</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>True</DefaultRepeat>
-                <FileLastModifiedDate>2012-01-28 13:06:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2012-01-28 05:06:18Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\slowjam_Livingroom_RoomTone.wav</SourceFileName>
@@ -4279,7 +4279,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>1999-01-29 21:58:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>1999-01-29 13:58:18Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\slowjam_CellPhone.wav</SourceFileName>
@@ -4291,7 +4291,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-20 12:16:59Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-20 05:16:59Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\Doorslam.wav</SourceFileName>
@@ -4303,7 +4303,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-26 11:55:53Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-26 04:55:53Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\Orb_2.wav</SourceFileName>
@@ -4315,7 +4315,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-27 08:05:36Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-27 01:05:36Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\PioneerSquare_ambience.wav</SourceFileName>
@@ -4327,7 +4327,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-26 10:42:54Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-26 03:42:54Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\teakKettle.wav</SourceFileName>
@@ -4339,7 +4339,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-26 11:55:50Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-26 04:55:50Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\Wind_loop.wav</SourceFileName>
@@ -4351,7 +4351,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>True</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-27 07:45:03Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-27 00:45:03Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
