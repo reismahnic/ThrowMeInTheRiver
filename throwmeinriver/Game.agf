@@ -1441,7 +1441,7 @@
                 <ID>5</ID>
                 <ScriptName>cJoseph40</ScriptName>
                 <RealName>Joseph</RealName>
-                <NormalView>6</NormalView>
+                <NormalView>7</NormalView>
                 <SpeechView>9</SpeechView>
                 <IdleView>0</IdleView>
                 <ThinkingView>0</ThinkingView>
@@ -1481,7 +1481,7 @@
                 <ID>6</ID>
                 <ScriptName>cJoseph20</ScriptName>
                 <RealName>Joseph</RealName>
-                <NormalView>6</NormalView>
+                <NormalView>15</NormalView>
                 <SpeechView>10</SpeechView>
                 <IdleView>0</IdleView>
                 <ThinkingView>0</ThinkingView>
@@ -3233,7 +3233,62 @@ stop
               </SpriteFolder>
               <SpriteFolder Name="Joseph_Scene3">
                 <SubFolders />
-                <Sprites />
+                <Sprites>
+                  <Sprite Slot="128" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="129" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="130" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="137" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="138" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="139" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="140" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="141" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="142" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="143" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="144" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="145" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="146" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="147" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="148" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\dev\throwmeintheriver\throwmeinriver\Assets\Characters\Joseph\Scene 3\S3Back_F1.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="149" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\dev\throwmeintheriver\throwmeinriver\Assets\Characters\Joseph\Scene 3\S3Back_F2.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="150" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\dev\throwmeintheriver\throwmeinriver\Assets\Characters\Joseph\Scene 3\S3Back_F3.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="151" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\dev\throwmeintheriver\throwmeinriver\Assets\Characters\Joseph\Scene 3\S3Back_F4.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="152" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\dev\throwmeintheriver\throwmeinriver\Assets\Characters\Joseph\Scene 3\S3Front_F1.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="153" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\dev\throwmeintheriver\throwmeinriver\Assets\Characters\Joseph\Scene 3\S3Front_F2.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="154" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\dev\throwmeintheriver\throwmeinriver\Assets\Characters\Joseph\Scene 3\S3Front_F3.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="155" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\dev\throwmeintheriver\throwmeinriver\Assets\Characters\Joseph\Scene 3\S3Front_F4.png</FileName>
+                    </Source>
+                  </Sprite>
+                </Sprites>
               </SpriteFolder>
               <SpriteFolder Name="Diane">
                 <SubFolders />
@@ -3266,6 +3321,91 @@ stop
                   <Sprite Slot="127" Width="60" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
                     <Source>
                       <FileName>Assets\Characters\Dad\joesfather_portrait_scene5_60x80.png</FileName>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
+              <SpriteFolder Name="Joseph_Scene4">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="156" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\dev\throwmeintheriver\throwmeinriver\Assets\Characters\Joseph\Scene 4\S4Back_F1.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="157" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\dev\throwmeintheriver\throwmeinriver\Assets\Characters\Joseph\Scene 4\S4Back_F2.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="158" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\dev\throwmeintheriver\throwmeinriver\Assets\Characters\Joseph\Scene 4\S4Back_F3.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="159" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\dev\throwmeintheriver\throwmeinriver\Assets\Characters\Joseph\Scene 4\S4Back_F4.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="160" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\dev\throwmeintheriver\throwmeinriver\Assets\Characters\Joseph\Scene 4\S4Front_F1.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="161" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\dev\throwmeintheriver\throwmeinriver\Assets\Characters\Joseph\Scene 4\S4Front_F2.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="162" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\dev\throwmeintheriver\throwmeinriver\Assets\Characters\Joseph\Scene 4\S4Front_F3.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="163" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\dev\throwmeintheriver\throwmeinriver\Assets\Characters\Joseph\Scene 4\S4Front_F4.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="164" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\dev\throwmeintheriver\throwmeinriver\Assets\Characters\Joseph\Scene 4\S4Left_F1.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="165" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\dev\throwmeintheriver\throwmeinriver\Assets\Characters\Joseph\Scene 4\S4Left_F2.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="166" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\dev\throwmeintheriver\throwmeinriver\Assets\Characters\Joseph\Scene 4\S4Left_F3.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="167" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\dev\throwmeintheriver\throwmeinriver\Assets\Characters\Joseph\Scene 4\S4Left_F4.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="168" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\dev\throwmeintheriver\throwmeinriver\Assets\Characters\Joseph\Scene 4\S4Right_F1.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="169" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\dev\throwmeintheriver\throwmeinriver\Assets\Characters\Joseph\Scene 4\S4Right_F2.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="170" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\dev\throwmeintheriver\throwmeinriver\Assets\Characters\Joseph\Scene 4\S4Right_F3.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="171" Width="40" Height="80" ColorDepth="16" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\dev\throwmeintheriver\throwmeinriver\Assets\Characters\Joseph\Scene 4\S4Right_F4.png</FileName>
                     </Source>
                   </Sprite>
                 </Sprites>
@@ -4012,8 +4152,187 @@ stop
           </View>
           <View>
             <ID>7</ID>
-            <Name>Joseph30Walk</Name>
-            <Loops />
+            <Name>Joseph40Walk</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>152</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>153</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>154</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>155</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>141</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>142</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>143</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>144</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>145</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>146</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>6</ID>
+                    <Image>147</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>128</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>129</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>130</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>137</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>138</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>139</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>6</ID>
+                    <Image>140</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>148</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>149</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>150</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>151</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
           </View>
           <View>
             <ID>8</ID>
@@ -4148,6 +4467,148 @@ stop
               </Loop>
             </Loops>
           </View>
+          <View>
+            <ID>15</ID>
+            <Name>Joseph20Walk</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>160</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>161</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>162</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>163</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>164</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>165</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>166</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>167</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>168</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>169</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>170</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>171</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>156</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>157</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>158</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>159</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
         </Views>
       </ViewFolder>
     </Views>
@@ -4223,7 +4684,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-23 00:24:21Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-22 17:24:21Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\Monologue_1.wav</SourceFileName>
@@ -4235,7 +4696,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-26 03:43:31Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-25 20:43:31Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\Monologue_2.wav</SourceFileName>
@@ -4247,7 +4708,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-26 03:43:47Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-25 20:43:47Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\Monologue_3.wav</SourceFileName>
@@ -4259,7 +4720,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-26 03:44:46Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-25 20:44:46Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\scene4_loop_2.wav</SourceFileName>
@@ -4271,7 +4732,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-26 07:44:08Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-26 00:44:08Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\ThrowMeInTheRiver.mp3</SourceFileName>
@@ -4283,7 +4744,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-25 11:30:15Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-25 04:30:15Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
@@ -4307,7 +4768,7 @@ stop
                 <DefaultVolume>25</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>True</DefaultRepeat>
-                <FileLastModifiedDate>2012-01-27 05:06:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2012-01-26 21:06:18Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\slowjam_Livingroom_RoomTone.wav</SourceFileName>
@@ -4319,7 +4780,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>1999-01-28 13:58:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>1999-01-28 05:58:18Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\slowjam_CellPhone.wav</SourceFileName>
@@ -4331,7 +4792,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-19 08:16:59Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-19 01:16:59Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\Doorslam.wav</SourceFileName>
@@ -4343,7 +4804,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-25 07:55:53Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-25 00:55:53Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\Orb_2.wav</SourceFileName>
@@ -4355,7 +4816,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-26 04:05:36Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-25 21:05:36Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\PioneerSquare_ambience.wav</SourceFileName>
@@ -4367,7 +4828,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-25 06:42:54Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-24 23:42:54Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\teakKettle.wav</SourceFileName>
@@ -4379,7 +4840,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-25 07:55:50Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-25 00:55:50Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\Wind_loop.wav</SourceFileName>
@@ -4391,7 +4852,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>True</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-26 03:45:03Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-25 20:45:03Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <SourceFileName>Assets\Sound\Hospital_Ambience_noresp.wav</SourceFileName>
@@ -4403,7 +4864,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>True</DefaultRepeat>
-                <FileLastModifiedDate>2015-06-28 07:04:46Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2015-06-28 00:04:46Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
